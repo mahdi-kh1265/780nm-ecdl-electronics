@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA192IDR
+D High-Voltage, Rail-to-Rail Input/Output, 5V, 0.2V/C, Precision Operational Amplifier
+K
+F http://www.ti.com/lit/gpn/opa192
+$ENDCMP
+#
+#End Doc Library

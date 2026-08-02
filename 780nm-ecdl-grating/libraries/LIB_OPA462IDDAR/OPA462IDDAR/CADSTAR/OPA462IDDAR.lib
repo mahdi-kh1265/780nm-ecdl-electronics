@@ -1,0 +1,16 @@
+.OPA462IDDAR :1 ;High-Voltage, High-Current (30-mA) Operational Amplifier
+SOIC127P600X170-9N
+*STM IC
+*NGS
+*PLB 1="E/D COM" 2="-IN" 3="+IN" 4="V-" 5="STATUS FLAG" 6="OUT" 7="V+" 8="E/D" 9="EP"
+*MXP 9
+*DFN OPA462IDDAR
+~!Mouser Part Number (595-OPA462IDDAR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA462IDDAR?qs=9r4v7xj2Lnl6T1pF18R4kw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (OPA462IDDAR)
+~!Link Datasheet (https://www.ti.com/lit/gpn/OPA462)
+~!Height (1.7mm)
+~!3D_Model (OPA462IDDAR)
+OPA462IDDAR
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

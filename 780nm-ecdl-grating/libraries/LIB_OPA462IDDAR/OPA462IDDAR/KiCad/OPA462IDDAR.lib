@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model OPA462IDDAR
+#/2314218/1910885/2.50/9/3/Integrated Circuit
+DEF OPA462IDDAR IC 0 30 Y Y 1 F N
+F0 "IC" 1450 300 50 H V L CNN
+F1 "OPA462IDDAR" 1450 200 50 H V L CNN
+F2 "SOIC127P600X170-9N" 1450 100 50 H I L CNN
+F3 "https://www.ti.com/lit/gpn/OPA462" 1450 0 50 H I L CNN
+F4 "High-Voltage, High-Current (30-mA) Operational Amplifier" 1450 -100 50 H I L CNN "Description"
+F5 "1.7" 1450 -200 50 H I L CNN "Height"
+F6 "595-OPA462IDDAR" 1450 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA462IDDAR?qs=9r4v7xj2Lnl6T1pF18R4kw%3D%3D" 1450 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1450 -500 50 H I L CNN "Manufacturer_Name"
+F9 "OPA462IDDAR" 1450 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X E/D_COM 1 0 0 200 R 50 50 0 0 P
+X -IN 2 0 -100 200 R 50 50 0 0 P
+X +IN 3 0 -200 200 R 50 50 0 0 P
+X V- 4 0 -300 200 R 50 50 0 0 P
+X EP 9 800 -800 200 U 50 50 0 0 P
+X E/D 8 1600 0 200 L 50 50 0 0 P
+X V+ 7 1600 -100 200 L 50 50 0 0 P
+X OUT 6 1600 -200 200 L 50 50 0 0 P
+X STATUS_FLAG 5 1600 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1400 100 1400 -600 200 -600 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

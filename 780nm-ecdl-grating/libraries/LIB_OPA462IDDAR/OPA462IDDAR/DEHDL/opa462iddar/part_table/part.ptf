@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPA462IDDAR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "OPA462IDDAR" (!) = "", "SOIC127P600X170-9N", "Small Outline Packages", "595-OPA462IDDAR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA462IDDAR?qs=9r4v7xj2Lnl6T1pF18R4kw%3D%3D", "High-Voltage, High-Current (30-mA) Operational Amplifier", "https://www.ti.com/lit/gpn/OPA462", "1.7 mm"
+END_PART
+
+END.

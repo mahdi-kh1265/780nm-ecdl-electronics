@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=TSW-103-07-G-S
+PartCategory=Connector
+PackageCategory=Other
+PinCount=3
+Version=3.1
+Released=2019-01-29 08:06:06
+Downloaded=2026-08-02 06:22:17
+3D=Y

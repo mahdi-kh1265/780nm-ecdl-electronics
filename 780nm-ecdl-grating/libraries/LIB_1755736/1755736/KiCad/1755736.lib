@@ -1,0 +1,23 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 1755736
+#/256832/1910885/2.50/2/2/Connector
+DEF 1755736 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1755736" 650 200 50 H V L CNN
+F2 "1755736" 650 100 50 H I L CNN
+F3 "https://www.phoenixcontact.com/en-us/products/pcb-header-mstbva-25-2-g-508-1755736?type=pdf" 650 0 50 H I L CNN
+F4 "MSTBVA 2,5/ 2-G-5,08 - PCB headers, nominal cross section: 2.5 mm<sup>2</sup>, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Sn, contact connection type: Pin, number of potentials: 2, number of rows: 1, number of positions: 2, number of connections: 2, product range: MSTBVA 2,5/..-G, pitch: 5.08 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.9 mm, number of solder pins per potential: 1, plug-in system: COMBICON MSTB 2,5, Pin connector patter" 650 -100 50 H I L CNN "Description"
+F5 "12.15" 650 -200 50 H I L CNN "Height"
+F6 "651-1755736" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1755736?qs=wd%252Bw3mUqFrlo9zPE3AUt1w%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Phoenix Contact" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1755736" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

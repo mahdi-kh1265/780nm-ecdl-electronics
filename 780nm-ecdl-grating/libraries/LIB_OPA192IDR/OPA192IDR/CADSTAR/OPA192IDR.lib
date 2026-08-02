@@ -1,0 +1,16 @@
+.OPA192IDR :1 ;High-Voltage, Rail-to-Rail Input/Output, 5V, 0.2V/C, Precision Operational Amplifier
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="NC_1" 2="-IN" 3="+IN" 4="V-" 5="NC_2" 6="OUT" 7="V+" 8="NC_3"
+*MXP 8
+*DFN OPA192IDR
+~!Mouser Part Number (595-OPA192IDR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA192IDR?qs=wrT8kFYR77%252BLV20WgpFlnQ%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (OPA192IDR)
+~!Link Datasheet (http://www.ti.com/lit/gpn/opa192)
+~!Height (1.75mm)
+~!3D_Model (OPA192IDR)
+OPA192IDR
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

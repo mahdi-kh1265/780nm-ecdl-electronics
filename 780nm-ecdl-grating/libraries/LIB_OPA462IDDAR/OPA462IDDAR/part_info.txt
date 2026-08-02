@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=OPA462IDDAR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=9
+Version=1.1
+Released=2020-05-07 08:32:18
+Downloaded=2026-08-02 04:56:14
+3D=Y

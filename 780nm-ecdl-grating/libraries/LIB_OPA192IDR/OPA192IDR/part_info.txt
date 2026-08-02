@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=OPA192IDR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2020-12-03 11:07:51
+Downloaded=2026-08-01 22:46:29
+3D=Y

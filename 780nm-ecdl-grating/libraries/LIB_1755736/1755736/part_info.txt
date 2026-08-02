@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1755736
+PartCategory=Connector
+PackageCategory=Other
+PinCount=2
+Version=8.1
+Released=2016-03-09 14:17:06
+Downloaded=2026-08-02 06:19:38
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA462IDDAR
+D High-Voltage, High-Current (30-mA) Operational Amplifier
+K
+F https://www.ti.com/lit/gpn/OPA462
+$ENDCMP
+#
+#End Doc Library

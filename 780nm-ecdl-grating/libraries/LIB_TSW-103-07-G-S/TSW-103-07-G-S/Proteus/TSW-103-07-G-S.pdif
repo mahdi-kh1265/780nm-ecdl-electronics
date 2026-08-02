@@ -1,0 +1,110 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TSW-103-07-G-S"
+   (description "3 Position, Single Row, Classic PCB Header Strips, 0.100&quot; pitch")
+   (family "CON")
+   (package "TSW-103-XX-YY-S")
+   (attribute "Datasheet Link" "http://suddendocs.samtec.com/prints/tsw-xxx-xx-xxx-x-xx-xxx-mkt.pdf")
+   (attribute "Mouser Part Number" "200-TSW10307GS")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Samtec/TSW-103-07-G-S?qs=iT52DjcXudtntd1jApTIAw%3D%3D")
+   (attribute "Manufacturer_Name" "SAMTEC")
+   (attribute "Manufacturer_Part_Number" "TSW-103-07-G-S")
+   (gate
+    (symbol "TSW-103-07-G-S")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+    (pin "3" 3 PS)
+   )
+  )
+  (symbol "TSW-103-07-G-S"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TSW-103-XX-YY-S"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -1.27 1.27)
+      (pt 6.35 1.27)
+      (pt 6.35 -1.27)
+      (pt -1.27 -1.27)
+      (pt -1.27 1.27))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.27 1.27)
+      (pt 6.35 1.27)
+      (pt 6.35 -1.27)
+      (pt -1.27 -1.27)
+      (pt -1.27 1.27))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (circle
+      (pt -0.1 -1.75) (pt 0 -1.75)
+     )
+    )
+   )
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed true)
+      (pt -2.47 2.47)
+      (pt 7.55 2.47)
+      (pt 7.55 -2.85)
+      (pt -2.47 -2.85)
+      (pt -2.47 2.47))))
+   (leg 1 (pt 0 0) (padstack 0))
+   (leg 2 (pt 2.54 0) (padstack 0))
+   (leg 3 (pt 5.08 0) (padstack 0))
+   (padstack 0
+    (hole 1.02)
+    (plated true)
+    (pad (layer TCOP) (round 1.55))
+    (pad (layer INNER) (round 1.55))
+    (pad (layer BCOP) (round 1.55))
+   )
+   (model "TSW-103-07-G-S.stp"
+    (euler 90 0 0)
+    (offset 2.5999999046325684 -0.1899999976158142 0)
+   )
+  )
+ )
+)
