@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "B22AP"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-09-02-21:30:40)
+    (mountForm default
+        (footprintRef "B22AP")
+        (spec "System")
+    )
+)

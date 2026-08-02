@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "B22AP"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "B22AP")
+        (spec "default")
+    )
+)

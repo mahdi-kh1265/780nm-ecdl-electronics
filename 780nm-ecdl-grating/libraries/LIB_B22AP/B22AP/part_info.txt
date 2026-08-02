@@ -1,0 +1,9 @@
+Manufacturer=NKK Switches
+PartNumber=B22AP
+PartCategory=Switch
+PackageCategory=Other
+PinCount=6
+Version=1.3
+Released=2020-09-02 21:30:40
+Downloaded=2026-08-02 07:54:20
+3D=Y

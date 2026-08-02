@@ -1,0 +1,16 @@
+.B22AP :1 ;Toggle Switches DPDT ON-NONE-ON .394 BAT STRAIGHT PC
+B22AP
+*STM S
+*NGS
+*PLB 1="NO_1" 2="COM_1" 3="NC_1" 4="NO_2" 5="COM_2" 6="NC_2"
+*MXP 6
+*DFN B22AP
+~!Mouser Part Number (633-B22AP)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/NKK-Switches/B22AP?qs=j%2Fw1qMK5FF4ADLD4OYx5DQ%3D%3D)
+~!Manufacturer_Name (NKK Switches)
+~!Manufacturer_Part_Number (B22AP)
+~!Link Datasheet (https://www.digikey.ph/en/products/detail/nkk-switches/B22AP/379102?srsltid=AfmBOoq2ffh3TUAnDNiZJlaVxYCDEPLtTEJlIOaBAa2Y6mNiDAISLYZb)
+~!Height (23.1mm)
+~!3D_Model (B22AP)
+B22AP
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 
