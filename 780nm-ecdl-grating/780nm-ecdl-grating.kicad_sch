@@ -2718,6 +2718,171 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:FerriteBead"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "FB"
+				(at -3.81 0.635 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FerriteBead"
+				(at 3.81 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Ferrite bead"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "L ferrite bead inductor filter"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FerriteBead_0_1"
+				(polyline
+					(pts
+						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 1.2954)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.2192)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "FerriteBead_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4588,6 +4753,145 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+9V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+9V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+9V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+9V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+9V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -4951,6 +5255,18 @@
 		)
 		(uuid "8e7516ea-4615-473c-98d5-d3796a8ebcc5")
 	)
+	(text "Input Power Supply"
+		(exclude_from_sim no)
+		(at 146.812 192.786 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "9bc10af4-1c14-4738-8909-ad335653987a")
+	)
 	(text "+155V input"
 		(exclude_from_sim no)
 		(at 239.014 87.376 0)
@@ -5078,6 +5394,12 @@
 		(uuid "045154eb-162a-4026-b1a7-1f741c826e38")
 	)
 	(junction
+		(at 137.16 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "070fda42-78a9-4b8f-be7d-d6964c69ef8d")
+	)
+	(junction
 		(at 17.78 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5088,6 +5410,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0930ec66-7da3-4d0b-998e-45a5fc6391b3")
+	)
+	(junction
+		(at 125.73 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0db31eb5-ffcd-415f-b694-bd90d33fe702")
+	)
+	(junction
+		(at 125.73 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15c98d4b-d6a4-4ce8-b2d3-33b4af04a548")
 	)
 	(junction
 		(at 128.27 130.81)
@@ -5180,6 +5514,12 @@
 		(uuid "5e472ab0-4d33-4d32-882d-cfcb6eb14b52")
 	)
 	(junction
+		(at 156.21 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60741aef-1873-424b-bb34-ae7f128984a2")
+	)
+	(junction
 		(at 101.6 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5210,16 +5550,40 @@
 		(uuid "7628e6a2-f6c8-40ba-8ddc-44db84bcd1ac")
 	)
 	(junction
+		(at 135.89 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76e989fe-8055-4cba-a54a-c2603c2d6191")
+	)
+	(junction
 		(at 128.27 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7736dead-663f-4abb-91b2-18753bcae9fe")
 	)
 	(junction
+		(at 227.33 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "834ffbfa-275e-4668-b2f3-15859b1bca4a")
+	)
+	(junction
+		(at 157.48 163.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83709aa9-9837-4a3c-9df1-37f50f763b3f")
+	)
+	(junction
 		(at 168.91 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83855d48-dd56-4ec1-9efc-6a7bbcf78d13")
+	)
+	(junction
+		(at 135.89 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8979f716-44ff-477e-ba82-e0eb0c8579fb")
 	)
 	(junction
 		(at 41.91 35.56)
@@ -5232,6 +5596,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89d0cebe-4002-4651-9ecc-1f667876d49b")
+	)
+	(junction
+		(at 168.91 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8aa36c61-68c2-49e1-9ee4-cc29748bf8fa")
 	)
 	(junction
 		(at 245.11 45.72)
@@ -5256,6 +5626,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "914d77f8-59c1-4383-ac1f-947d9aa8227a")
+	)
+	(junction
+		(at 157.48 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98a0f959-528e-4889-a41d-913229a117be")
 	)
 	(junction
 		(at 92.71 175.26)
@@ -5336,10 +5712,28 @@
 		(uuid "bf27b889-7082-4888-b63e-2491797b5c49")
 	)
 	(junction
+		(at 137.16 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfb3e708-794c-43c1-970f-e6fecafebff9")
+	)
+	(junction
 		(at 99.06 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c16fafcb-6f2e-4a09-bc6c-e1afd74d32ed")
+	)
+	(junction
+		(at 124.46 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c77a3c5f-f091-425a-945a-093c34c09554")
+	)
+	(junction
+		(at 124.46 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdc22a88-c42f-4053-8827-b989c43cfd5e")
 	)
 	(junction
 		(at 168.91 118.11)
@@ -5376,6 +5770,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f4a3bcf5-1094-4c5e-92cc-c7ff7b52d21f")
+	)
+	(junction
+		(at 156.21 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5d2c5c4-86dc-48a5-9248-7801cf97d5e1")
+	)
+	(junction
+		(at 167.64 179.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd48512e-58a7-425c-8ce9-0363bf60d060")
 	)
 	(no_connect
 		(at 97.79 90.17)
@@ -5425,6 +5831,16 @@
 		(at 93.98 38.1)
 		(uuid "e51f9911-b2d4-49df-8820-dae7da24314e")
 	)
+	(wire
+		(pts
+			(xy 273.05 57.15) (xy 275.59 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "004cbba4-221e-4730-a272-9d0a43ca74bc")
+	)
 	(polyline
 		(pts
 			(xy 115.57 120.65) (xy 115.57 144.78)
@@ -5434,6 +5850,16 @@
 			(type default)
 		)
 		(uuid "00cf2928-5f5e-40db-9ed8-0af6cc283125")
+	)
+	(wire
+		(pts
+			(xy 152.4 156.21) (xy 157.48 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "021965ec-08b2-4661-afd1-9f501b5fb4c4")
 	)
 	(polyline
 		(pts
@@ -5554,6 +5980,16 @@
 			(type default)
 		)
 		(uuid "1519f892-ec5a-4684-ad97-283f83f5f997")
+	)
+	(polyline
+		(pts
+			(xy 177.038 197.866) (xy 118.11 197.866)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "167f6bfb-358c-411e-bcf8-4473baa93c04")
 	)
 	(polyline
 		(pts
@@ -5765,6 +6201,16 @@
 		)
 		(uuid "2dd6b905-1e00-4af2-bd91-7bad8e212302")
 	)
+	(wire
+		(pts
+			(xy 137.16 156.21) (xy 144.78 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e5a0a06-731f-49ab-862c-a88f8b329d88")
+	)
 	(polyline
 		(pts
 			(xy 13.97 73.66) (xy 147.32 73.66)
@@ -5925,6 +6371,16 @@
 		)
 		(uuid "3c8105d6-021c-4dd9-9f7d-3c2cdae158c3")
 	)
+	(polyline
+		(pts
+			(xy 177.038 166.116) (xy 177.038 197.866)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40d05da2-0c31-4c1a-8818-a107b414997b")
+	)
 	(wire
 		(pts
 			(xy 113.03 21.59) (xy 113.03 43.18)
@@ -5934,6 +6390,16 @@
 			(type default)
 		)
 		(uuid "41253f6d-8b52-4f04-a656-5e2a140499af")
+	)
+	(wire
+		(pts
+			(xy 157.48 156.21) (xy 168.91 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4212d072-191f-4ee3-a724-f41f4d0713e6")
 	)
 	(wire
 		(pts
@@ -5964,6 +6430,16 @@
 			(type default)
 		)
 		(uuid "472a9b0b-ac7f-45f9-93fb-b9ee7dfecfb3")
+	)
+	(polyline
+		(pts
+			(xy 147.32 145.034) (xy 181.102 145.034)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c4ecfe-6fe2-4d87-bf41-f472cc143ff0")
 	)
 	(wire
 		(pts
@@ -6235,6 +6711,16 @@
 		)
 		(uuid "699915df-0abd-4f50-9f6d-78c4929df92e")
 	)
+	(polyline
+		(pts
+			(xy 181.102 145.034) (xy 181.102 166.116)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69afc6c4-835c-42ab-ad0a-326cfc725055")
+	)
 	(wire
 		(pts
 			(xy 195.58 33.02) (xy 218.44 33.02)
@@ -6244,6 +6730,16 @@
 			(type default)
 		)
 		(uuid "69bdfeca-21df-4625-9fe4-8a5e8a21819e")
+	)
+	(wire
+		(pts
+			(xy 124.46 186.69) (xy 135.89 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac607d6-fa2b-4884-8817-aa1dbe5f00da")
 	)
 	(wire
 		(pts
@@ -6294,6 +6790,16 @@
 			(type default)
 		)
 		(uuid "7177d471-22ac-42c2-ab66-ecf866ecfdea")
+	)
+	(wire
+		(pts
+			(xy 125.73 156.21) (xy 137.16 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "732d540d-6544-4cb6-93af-c0e4727e8e18")
 	)
 	(wire
 		(pts
@@ -6577,6 +7083,26 @@
 	)
 	(wire
 		(pts
+			(xy 124.46 179.07) (xy 135.89 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91d0f668-fc6d-435d-84dd-3d8fc6d7152a")
+	)
+	(wire
+		(pts
+			(xy 135.89 186.69) (xy 156.21 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94395ffb-07c3-4ced-a7dc-10068a597e85")
+	)
+	(wire
+		(pts
 			(xy 163.83 43.18) (xy 165.1 43.18)
 		)
 		(stroke
@@ -6787,6 +7313,26 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 163.83) (xy 137.16 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4008b6-13cf-401d-b830-e3d3ef2dfc94")
+	)
+	(wire
+		(pts
+			(xy 156.21 186.69) (xy 167.64 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "affbc858-e5db-4e2d-a8f7-07c08179bacb")
+	)
+	(wire
+		(pts
 			(xy 237.49 45.72) (xy 245.11 45.72)
 		)
 		(stroke
@@ -6937,6 +7483,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 163.83) (xy 157.48 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4b856f8-9d0a-469d-a4c6-3d949362fac9")
+	)
+	(wire
+		(pts
 			(xy 223.52 35.56) (xy 223.52 45.72)
 		)
 		(stroke
@@ -6944,6 +7500,26 @@
 			(type default)
 		)
 		(uuid "c6d20512-6867-47f6-b440-46829ca37b5d")
+	)
+	(polyline
+		(pts
+			(xy 181.102 166.116) (xy 177.038 166.116)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9016cbc-c760-424e-85dc-472b476c84d7")
+	)
+	(wire
+		(pts
+			(xy 151.13 179.07) (xy 156.21 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb8db6e1-6bc4-44bb-82b4-ae62aee9d059")
 	)
 	(wire
 		(pts
@@ -7095,6 +7671,26 @@
 		)
 		(uuid "e0bafbf0-7197-4d2d-9a60-eb9387cb803a")
 	)
+	(wire
+		(pts
+			(xy 135.89 179.07) (xy 143.51 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ac2060-15b1-4c2e-95f7-38c25b64f7ef")
+	)
+	(wire
+		(pts
+			(xy 156.21 179.07) (xy 167.64 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5eab8bf-f32a-4d97-a0c7-50b0411ca9a6")
+	)
 	(polyline
 		(pts
 			(xy 254.635 68.58) (xy 285.115 68.58)
@@ -7234,6 +7830,16 @@
 			(type default)
 		)
 		(uuid "fe2bc68e-990b-47f9-a146-dbb1aa637276")
+	)
+	(wire
+		(pts
+			(xy 157.48 163.83) (xy 168.91 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee3faa4-6a62-4da8-a79f-6a0ef5dcbb11")
 	)
 	(wire
 		(pts
@@ -9020,6 +9626,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 156.21 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1221ccdd-1350-44de-ac6d-9f435a087cb9")
+		(property "Reference" "C37"
+			(at 160.02 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 160.02 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.1752 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cc260858-0654-45ea-aecb-5966c44c36bc")
+		)
+		(pin "2"
+			(uuid "f8f16b04-33c7-4109-a14f-ec233c99237d")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 227.33 77.47 0)
 		(unit 1)
@@ -9170,6 +9858,88 @@
 			(project "780nm-ecdl-grating"
 				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 168.91 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "168711ac-637e-4fd8-910e-41e4840e82a0")
+		(property "Reference" "C33"
+			(at 172.72 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 172.72 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 169.8752 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 168.91 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2bca264a-7ee3-43a2-ad21-99827d23c8de")
+		)
+		(pin "2"
+			(uuid "f4448e1d-c5d6-4912-8fa5-0889619ea943")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -9329,6 +10099,88 @@
 			(project "780nm-ecdl-grating"
 				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 167.64 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "189aa8b1-37cc-4d48-9cae-40f1cf2aa226")
+		(property "Reference" "C38"
+			(at 171.45 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 171.45 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.6052 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 167.64 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54947305-8fe3-4607-9718-661bf109e144")
+		)
+		(pin "2"
+			(uuid "2d035bb8-3961-48d7-82b5-158965279c6c")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -9732,6 +10584,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 124.46 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1acd17bf-14bd-40fe-9a47-f7ad471c26ab")
+		(property "Reference" "#PWR063"
+			(at 124.46 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 191.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b961d22-28a5-4b67-92a2-4b8ae77c181d")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 160.02 43.18 270)
 		(unit 1)
@@ -9888,6 +10818,88 @@
 			(project "780nm-ecdl-grating"
 				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 124.46 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e8e165a-5ecf-499f-812d-059964a3424b")
+		(property "Reference" "C35"
+			(at 128.27 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 128.27 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.4252 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 124.46 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea0f975e-ab94-4c21-b6f7-907b35e98589")
+		)
+		(pin "2"
+			(uuid "1b24c7a9-17dd-4105-8695-12b350246f38")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -10375,6 +11387,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 125.73 163.83 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "228c8398-d652-42e6-bcd7-ce5ccbdfb30c")
+		(property "Reference" "#PWR060"
+			(at 125.73 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 168.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 125.73 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3faad21-8500-4df8-808d-6255415b29f3")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 179.07 19.05 270)
 		(unit 1)
@@ -10608,6 +11698,86 @@
 			(project "780nm-ecdl-grating"
 				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 147.32 179.07 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "28a85735-48ad-4e5c-b044-32af6068c125")
+		(property "Reference" "FB2"
+			(at 147.2692 171.45 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000 ohms"
+			(at 147.2692 173.99 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 180.848 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 147.32 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b104961f-da87-468f-bae9-fa1a0577e9ba")
+		)
+		(pin "1"
+			(uuid "1e44b590-1098-4864-97d9-95ac7cefd997")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "FB2")
 					(unit 1)
 				)
 			)
@@ -11596,6 +12766,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9V")
+		(at 124.46 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40bcbb5a-91ef-47a2-b34e-97a8aa3cdeb8")
+		(property "Reference" "#PWR062"
+			(at 124.46 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-5V_IN"
+			(at 124.46 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 124.46 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99e6a6f3-5910-467f-a71a-0fc4086b7a33")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 204.47 19.05 270)
 		(unit 1)
@@ -11671,6 +12919,84 @@
 			(project "780nm-ecdl-grating"
 				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 227.33 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "42117e60-8ff4-4301-ad6a-20667c1a4732")
+		(property "Reference" "TP5"
+			(at 219.456 94.488 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "V_MON"
+			(at 219.456 97.028 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 232.41 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 227.33 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d59ca6fb-b245-4fb5-9382-023011927874")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -12142,6 +13468,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9V")
+		(at 168.91 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f25c08b-1c50-49ad-ae35-77206fa4828a")
+		(property "Reference" "#PWR061"
+			(at 168.91 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+9V"
+			(at 168.91 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 168.91 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5104ee19-9d3a-4b64-b383-bc91e6d85d16")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 16.51 109.22 0)
 		(unit 1)
@@ -12214,6 +13618,88 @@
 			(project "780nm-ecdl-grating"
 				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 125.73 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52b1730b-09a1-428d-8b20-64ea1e414e5a")
+		(property "Reference" "C31"
+			(at 129.54 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7u"
+			(at 129.54 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 126.6952 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 125.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ef2370a1-eace-4f23-aa2b-a9f8763d98f4")
+		)
+		(pin "2"
+			(uuid "6e066b42-a1b2-4fa7-ab36-04544877f4de")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -12453,6 +13939,165 @@
 			(project "780nm-ecdl-grating"
 				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59e16627-b5d6-48a2-9ad1-2f56c1fad9de")
+		(property "Reference" "C34"
+			(at 161.29 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 161.29 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.4452 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 157.48 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ca1dd1e-e421-4fc7-acaa-9684ca65454f")
+		)
+		(pin "2"
+			(uuid "1d040134-da80-4ace-9965-1cbd43c0f7ec")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "C34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 275.59 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5a898b46-09ae-4b52-9da5-f635e60508cc")
+		(property "Reference" "#PWR048"
+			(at 275.59 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 275.4048 53.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 275.59 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 275.59 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "331b95d7-0eb6-4a2c-ab39-56541e53d7da")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -14297,6 +15942,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:FerriteBead")
+		(at 148.59 156.21 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "773ae09a-6cda-4122-bd2e-cbb8b59e36ed")
+		(property "Reference" "FB1"
+			(at 148.5392 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1000 ohms"
+			(at 148.5392 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 157.988 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead"
+			(at 148.59 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f443e945-9cec-454c-9bd8-938f8fd0f5b5")
+		)
+		(pin "1"
+			(uuid "0e0852ff-a08f-4130-9345-bebe82c3cb90")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "1755736:1755736")
 		(at 257.81 77.47 0)
 		(unit 1)
@@ -15256,6 +16981,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+9V")
+		(at 167.64 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d986bf4-c4b3-4f6f-bba4-f674518093fa")
+		(property "Reference" "#PWR064"
+			(at 167.64 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "-5V"
+			(at 167.64 173.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 167.64 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "774420ea-fe5d-4f25-b88a-e00ee0b67d38")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 87.63 180.34 0)
 		(unit 1)
@@ -15969,84 +17772,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 273.05 57.15 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9f2419fe-7134-4687-a9bf-757bc6b3a576")
-		(property "Reference" "#PWR048"
-			(at 279.4 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 278.13 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 273.05 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 273.05 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 273.05 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af586957-51c7-4cc1-a1e3-e36584e8dac6")
-		)
-		(instances
-			(project "780nm-ecdl-grating"
-				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 269.24 57.15 90)
 		(unit 1)
@@ -16678,6 +18403,88 @@
 			(project "780nm-ecdl-grating"
 				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
 					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 135.89 182.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0bcc933-2eec-40dd-89ad-1ab8e646ccb4")
+		(property "Reference" "C36"
+			(at 139.7 181.6099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 139.7 184.1499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 136.8552 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f0e1edc1-1ab1-425a-8d4b-1d390eae5ee5")
+		)
+		(pin "2"
+			(uuid "81ebad52-67be-4c7f-a432-41b6b6055a2f")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -19271,6 +21078,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 137.16 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0bd72e8-9983-477a-befc-e14aa173df30")
+		(property "Reference" "C32"
+			(at 140.97 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 140.97 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.1252 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 137.16 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "75705f08-eb1a-4012-8b14-bc83b056a3f7")
+		)
+		(pin "2"
+			(uuid "21505d0e-0d4e-4726-a981-42588f90eac7")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 113.03 46.99 180)
 		(unit 1)
 		(body_style 1)
@@ -19585,6 +21474,84 @@
 			(project "780nm-ecdl-grating"
 				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
 					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+9V")
+		(at 125.73 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe742f65-d55b-4789-b1e3-f4b73fb20dc1")
+		(property "Reference" "#PWR059"
+			(at 125.73 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+9V_IN"
+			(at 125.73 151.13 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 125.73 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 125.73 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+9V\""
+			(at 125.73 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4d4609e1-4a78-49f2-805b-a2358858af8d")
+		)
+		(instances
+			(project "780nm-ecdl-grating"
+				(path "/202055ab-2e1e-4dc5-a2e9-e3dc4a2d858d"
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
