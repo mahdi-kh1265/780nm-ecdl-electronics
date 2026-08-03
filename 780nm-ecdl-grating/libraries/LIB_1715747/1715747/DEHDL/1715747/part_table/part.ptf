@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1715747'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Phoenix Contact", "1715747" (!) = "", "1715747", "Other", "651-1715747", "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1715747?qs=BYlwlsDsB%2Freg4DQidMoLA%3D%3D", "MKDS 1,5/ 4-5,08 - Printed circuit board terminal, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm<sup>2</sup>, number of potentials: 4, number of rows: 1, number of positions per row: 4, product range: MKDS 1,5, pitch: 5.08 mm, connection method: Screw connection with tension sleeve, screw head form: L Slotted, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, number of solder pins per po", "https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-4-508-1715747?type=pdf", "13.95 mm"
+END_PART
+
+END.

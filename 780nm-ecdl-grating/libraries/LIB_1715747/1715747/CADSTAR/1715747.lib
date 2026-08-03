@@ -1,0 +1,16 @@
+.1715747 :1 ;MKDS 1,5/ 4-5,08 - Printed circuit board terminal, nominal current: 17.5 A, rated voltage (III/2): 400 V, nominal cross section: 1.5 mm<sup>2</sup>, number of potentials: 4, number of rows: 1, number of positions per row: 4, product range: MKDS 1,5, pitch: 5.08 mm, connection method: Screw connection with tension sleeve, screw head form: L Slotted, mounting: Wave soldering, conductor/PCB connection direction: 0 , color: green, Pin layout: Linear pinning, Solder pin [P]: 3.5 mm, number of solder pins per po
+"1715747"
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4"
+*MXP 4
+*DFN 1715747
+~!Mouser Part Number (651-1715747)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1715747?qs=BYlwlsDsB%2Freg4DQidMoLA%3D%3D)
+~!Manufacturer_Name (Phoenix Contact)
+~!Manufacturer_Part_Number (1715747)
+~!Link Datasheet (https://www.phoenixcontact.com/en-us/products/printed-circuit-board-terminal-mkds-15-4-508-1715747?type=pdf)
+~!Height (13.95mm)
+~!3D_Model (1715747)
+"1715747"
+1.1!U 2.1!U 3.1!U 4.1!U 
