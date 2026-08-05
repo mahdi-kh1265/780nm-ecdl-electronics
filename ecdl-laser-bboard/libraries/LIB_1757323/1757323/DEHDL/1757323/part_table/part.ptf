@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '1757323'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Phoenix Contact", "1757323" (!) = "", "1757323", "Other", "651-1757323", "https://www.mouser.co.uk/ProductDetail/Phoenix-Contact/1757323?qs=o3rrLWFGhRnEONaPlNkZ%252Bw%3D%3D", "MSTBA 2,5/10-G-5,08 - PCB headers, nominal cross section: 2.5 mm<sup>2</sup>, color: green, nominal current: 12 A, rated voltage (III/2): 320 V, contact surface: Sn, contact connection type: Pin, number of potentials: 10, number of rows: 1, number of positions: 10, number of connections: 10, product range: MSTBA 2,5/..-G, pitch: 5.08 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.23 mm, number of solder pins per potential: 1, plug-in system: COMBICON MSTB 2,5, Pin connector patt", "https://www.phoenixcontact.com/en-us/products/pcb-header-mstba-2510-g-508-1757323?type=pdf", "8.72 mm"
+END_PART
+
+END.

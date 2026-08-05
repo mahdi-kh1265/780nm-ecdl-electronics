@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1757268
+PartCategory=Connector
+PackageCategory=Other
+PinCount=4
+Version=7.1
+Released=2016-03-22 14:12:58
+Downloaded=2026-08-05 04:24:26
+3D=Y

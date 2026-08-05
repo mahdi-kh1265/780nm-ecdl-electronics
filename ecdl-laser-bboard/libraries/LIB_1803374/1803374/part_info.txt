@@ -1,0 +1,9 @@
+Manufacturer=Phoenix Contact
+PartNumber=1803374
+PartCategory=Connector
+PackageCategory=Other
+PinCount=12
+Version=8.2
+Released=2016-08-04 20:47:51
+Downloaded=2026-08-05 04:25:42
+3D=Y

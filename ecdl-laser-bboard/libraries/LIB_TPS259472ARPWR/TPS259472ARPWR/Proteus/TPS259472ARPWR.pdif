@@ -1,0 +1,208 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TPS259472ARPWR"
+   (description "Hot Swap Voltage Controllers 2.7-V to 23-V, 28-m?, 5.5-A eFuse with integrated reverse polarity protection")
+   (family "ANA")
+   (package "TPS259472ARPWR")
+   (attribute "Datasheet Link" "https://www.ti.com/lit/ds/symlink/tps25947.pdf?ts=1761904658681&ref_url=https%253A%252F%252Fwww.mouser.tw%252F")
+   (attribute "Geometry.Height" "1mm")
+   (attribute "Mouser Part Number" "595-TPS259472ARPWR")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS259472ARPWR?qs=iLbezkQI%252BshCnrYg81AACA%3D%3D")
+   (attribute "Manufacturer_Name" "Texas Instruments")
+   (attribute "Manufacturer_Part_Number" "TPS259472ARPWR")
+   (gate
+    (symbol "TPS259472ARPWR")
+    (pin "EN/UVLO_1" 1 PS)
+    (pin "OVCSEL" 2 PS)
+    (pin "PG" 3 PS)
+    (pin "PGTH_1" 4 PS)
+    (pin "IN" 5 PS)
+    (pin "OUT" 6 PS)
+    (pin "DVDT_1" 7 PS)
+    (pin "GND" 8 PS)
+    (pin "ILM" 9 PS)
+    (pin "ITIMER_1" 10 PS)
+    (pin "ITIMER_2" 11 PS)
+    (pin "EN/UVLO_2" 12 PS)
+    (pin "PGTH_2" 13 PS)
+    (pin "DVDT_2" 14 PS)
+   )
+  )
+  (symbol "TPS259472ARPWR"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1400 100) (pt 1400 -700) (pt 200 -700) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -300) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -400) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -500) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -600) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -300) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -400) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -500) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -600) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "TPS259472ARPWR"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1 -1)
+      (pt 1 -1)
+      (pt 1 1)
+      (pt -1 1)
+      (pt -1 -1))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.2 2.2)
+      (pt 2.2 2.2)
+      (pt 2.2 -2.2)
+      (pt -2.2 -2.2)
+      (pt -2.2 2.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.9 0.7)
+      (arc (pt -1.900 0.700) (pt -1.900 0.650) (pt -1.800 0.750) (start 180.0) (sweep 180.0))
+      (pt -1.8 0.7)
+      (arc (pt -1.800 0.700) (pt -1.900 0.650) (pt -1.800 0.750) (start 180.0) (sweep .0))
+      (pt -1.9 0.7)
+      (arc (pt -1.900 0.700) (pt -1.900 0.650) (pt -1.800 0.750) (start 180.0) (sweep 180.0))
+      (pt -1.8 0.7))))
+   (leg 1 (pt -0.900 0.700) (padstack 0))
+   (leg 2 (pt -0.900 0.225) (padstack 2))
+   (leg 3 (pt -0.900 -0.225) (padstack 3))
+   (leg 4 (pt -0.900 -0.700) (padstack 0))
+   (leg 5 (pt -0.250 0.000) (padstack 5))
+   (leg 6 (pt 0.250 0.000) (padstack 6))
+   (leg 7 (pt 0.900 -0.700) (padstack 0))
+   (leg 8 (pt 0.900 -0.225) (padstack 8))
+   (leg 9 (pt 0.900 0.225) (padstack 9))
+   (leg 10 (pt 0.900 0.700) (padstack 0))
+   (leg 11 (pt 0.725 1.025) (padstack 11))
+   (leg 12 (pt -0.725 1.025) (padstack 12))
+   (leg 13 (pt -0.725 -1.025) (padstack 13))
+   (leg 14 (pt 0.725 -1.025) (padstack 14))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 0.600 0 0 0.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 0.250 0.600 0 0 0.000))
+   )
+   (padstack 3
+    (plated false)
+    (pad (layer TCOP) (rectf 0.250 0.600 0 0 0.000))
+   )
+   (padstack 5
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 2.400 0 0 90.000))
+   )
+   (padstack 6
+    (plated false)
+    (pad (layer TCOP) (rectf 0.300 2.400 0 0 90.000))
+   )
+   (padstack 8
+    (plated false)
+    (pad (layer TCOP) (rectf 0.250 0.600 0 0 0.000))
+   )
+   (padstack 9
+    (plated false)
+    (pad (layer TCOP) (rectf 0.250 0.600 0 0 0.000))
+   )
+   (padstack 11
+    (plated false)
+    (pad (layer TCOP) (rectf 0.250 0.350 0 0 90.000))
+   )
+   (padstack 12
+    (plated false)
+    (pad (layer TCOP) (rectf 0.250 0.350 0 0 90.000))
+   )
+   (padstack 13
+    (plated false)
+    (pad (layer TCOP) (rectf 0.250 0.350 0 0 90.000))
+   )
+   (padstack 14
+    (plated false)
+    (pad (layer TCOP) (rectf 0.250 0.350 0 0 90.000))
+   )
+   (model "TPS259472ARPWR.stp"
+    (euler 90 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)

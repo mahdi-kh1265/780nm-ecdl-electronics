@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS259472ARPWR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS259472ARPWR" (!) = "", "TPS259472ARPWR", "Other", "595-TPS259472ARPWR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS259472ARPWR?qs=iLbezkQI%252BshCnrYg81AACA%3D%3D", "Hot Swap Voltage Controllers 2.7-V to 23-V, 28-m?, 5.5-A eFuse with integrated reverse polarity protection", "https://www.ti.com/lit/ds/symlink/tps25947.pdf?ts=1761904658681&ref_url=https%253A%252F%252Fwww.mouser.tw%252F", "1 mm"
+END_PART
+
+END.
