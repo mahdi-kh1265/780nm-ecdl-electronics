@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=DAC80501ZDGSR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=10
+Version=1.1
+Released=2021-06-04 08:04:18
+Downloaded=2026-08-06 07:09:16
+3D=Y

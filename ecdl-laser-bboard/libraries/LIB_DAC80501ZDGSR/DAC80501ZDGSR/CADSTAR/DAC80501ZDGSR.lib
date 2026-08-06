@@ -1,0 +1,16 @@
+.DAC80501ZDGSR :1 ;Digital to Analog Converters - DAC True 16-bit, 1-ch, SPI/I2C, voltage-output DAC in WSON package with precision internal reference 10-VSSOP -40 to 125
+SOP50P490X110-10N
+*STM IC
+*NGS
+*PLB 1="VDD" 2="VOUT" 3="NC_1" 4="AGND" 5="SPI2C" 6="SCLK/SCL" 7="'SYNC'/A0" 8="SDIN/SDA" 9="NC_2" 10="VREFIO"
+*MXP 10
+*DFN DAC80501ZDGSR
+~!Mouser Part Number (595-DAC80501ZDGSR)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/DAC80501ZDGSR?qs=%252B6g0mu59x7KTwAqkifaR1Q%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (DAC80501ZDGSR)
+~!Link Datasheet (https://www.ti.com/lit/ds/symlink/dac80501.pdf?ts=1622793671136&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DDAC80501ZDGSR)
+~!Height (1.1mm)
+~!3D_Model (DAC80501ZDGSR)
+DAC80501ZDGSR
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 
