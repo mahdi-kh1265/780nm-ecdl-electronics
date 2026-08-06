@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'OPA4192IPWR'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "OPA4192IPWR" (!) = "", "SOP65P640X120-14N", "Small Outline Packages", "595-OPA4192IPWR", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/OPA4192IPWR?qs=VymPLiRQZIQME3r0jgSK9g%3D%3D", "Low-Noise, Low Quiescent Current, 36V RRI/O Precision Op Amps, E-Trim Series", "http://www.ti.com/lit/gpn/OPA4192", "1.2 mm"
+END_PART
+
+END.

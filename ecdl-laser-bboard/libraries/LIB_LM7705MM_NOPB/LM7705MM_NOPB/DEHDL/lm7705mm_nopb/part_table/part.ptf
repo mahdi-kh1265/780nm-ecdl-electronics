@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM7705MM_NOPB'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LM7705MM/NOPB" (!) = "", "SOP65P490X110-8N", "Small Outline Packages", "926-LM7705MM/NOPB", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM7705MM-NOPB?qs=QbsRYf82W3EUoG7CCLtS5A%3D%3D", "Low Noise Negative Bias Generator", "http://www.ti.com/lit/gpn/LM7705", "1.1 mm"
+END_PART
+
+END.

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP OPA4192IPWR
+D Low-Noise, Low Quiescent Current, 36V RRI/O Precision Op Amps, E-Trim Series
+K
+F http://www.ti.com/lit/gpn/OPA4192
+$ENDCMP
+#
+#End Doc Library

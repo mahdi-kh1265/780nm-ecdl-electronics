@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=OPA4192IPWR
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=14
+Version=1.4
+Released=2021-04-18 05:58:39
+Downloaded=2026-08-06 19:39:56
+3D=Y

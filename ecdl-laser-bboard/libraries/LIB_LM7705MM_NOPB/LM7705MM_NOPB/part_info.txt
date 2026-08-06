@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM7705MM/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2021-03-27 06:07:23
+Downloaded=2026-08-06 20:38:27
+3D=Y

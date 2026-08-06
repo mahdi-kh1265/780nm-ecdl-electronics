@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM7705MM_NOPB
+D Low Noise Negative Bias Generator
+K
+F http://www.ti.com/lit/gpn/LM7705
+$ENDCMP
+#
+#End Doc Library

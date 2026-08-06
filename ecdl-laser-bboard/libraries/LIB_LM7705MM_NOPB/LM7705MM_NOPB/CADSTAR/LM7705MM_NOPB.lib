@@ -1,0 +1,16 @@
+.LM7705MM_NOPB :1 ;Low Noise Negative Bias Generator
+SOP65P490X110-8N
+*STM IC
+*NGS
+*PLB 1="CF+" 2="VSS_1" 3="SD" 4="VDD" 5="VSS_2" 6="VOUT" 7="CRES" 8="CF-"
+*MXP 8
+*DFN LM7705MM_NOPB
+~!Mouser Part Number (926-LM7705MM/NOPB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM7705MM-NOPB?qs=QbsRYf82W3EUoG7CCLtS5A%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM7705MM/NOPB)
+~!Link Datasheet (http://www.ti.com/lit/gpn/LM7705)
+~!Height (1.1mm)
+~!3D_Model (LM7705MM_NOPB)
+LM7705MM_NOPB
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 
