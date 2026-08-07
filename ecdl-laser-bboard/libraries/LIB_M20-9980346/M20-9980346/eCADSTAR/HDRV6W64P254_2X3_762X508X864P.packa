@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "M20-9980346"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-08-31-12:18:01)
+    (mountForm default
+        (footprintRef "HDRV6W64P254_2X3_762X508X864P")
+        (spec "System")
+    )
+)

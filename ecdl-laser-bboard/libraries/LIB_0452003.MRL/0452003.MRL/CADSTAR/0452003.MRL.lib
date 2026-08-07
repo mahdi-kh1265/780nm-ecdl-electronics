@@ -1,0 +1,16 @@
+.0452003.MRL :1 ;Fuse SMD NANO2 Slo-Blo 3A T Littelfuse 3A T Surface Mount Fuse, 125 V ac/dc
+FUSC6127X294N
+*STM F
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN 0452003.MRL
+~!Mouser Part Number (576-0452003.MRL)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Littelfuse/0452003.MRL?qs=LpXnx4WbYtASasaWrk%2F1Ow%3D%3D)
+~!Manufacturer_Name (LITTELFUSE)
+~!Manufacturer_Part_Number (0452003.MRL)
+~!Link Datasheet (http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_452_454_datasheet.pdf.pdf)
+~!Height (2.94mm)
+~!3D_Model (0452003.MRL)
+"0452003.MRL"
+1.1!U 2.1!U 

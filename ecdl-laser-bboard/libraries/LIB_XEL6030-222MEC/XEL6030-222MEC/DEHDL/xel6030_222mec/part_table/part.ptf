@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'XEL6030_222MEC'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "COILCRAFT", "XEL6030-222MEC" (!) = "", "XEL6030222MEC", "Other", "994-XEL6030-222MEC", "https://www.mouser.co.uk/ProductDetail/Coilcraft/XEL6030-222MEC?qs=wUXugUrL1qxOlDkRTiG1%2Fw%3D%3D", "Power Inductors - SMD 2.2uH Shld 20% 10A 13.97mOhms AECQ2", "https://www.coilcraft.com/getmedia/ed8d0314-5cbb-4be3-85da-32235c3701c8/xel6030.pdf", "3.1 mm"
+END_PART
+
+END.

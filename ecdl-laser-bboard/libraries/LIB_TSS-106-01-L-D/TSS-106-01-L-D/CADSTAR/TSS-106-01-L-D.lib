@@ -1,0 +1,15 @@
+.TSS-106-01-L-D :1 ;.100" Shrouded Terminal Strip
+TSS-106-XX-YYY-D
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8" 9="9" 10="10" 11="11" 12="12"
+*MXP 12
+*DFN TSS-106-01-L-D
+~!Mouser Part Number (200-TSS10601LD)
+~!Link Mouser Price/Stock (https://www.mouser.com/Search/Refine.aspx?Keyword=200-TSS10601LD)
+~!Manufacturer_Name (SAMTEC)
+~!Manufacturer_Part_Number (TSS-106-01-L-D)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/TSS-106-01-L-D.pdf)
+~!Height (-)
+TSS-106-01-L-D
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 12.1!U 

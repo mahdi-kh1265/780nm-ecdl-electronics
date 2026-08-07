@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0452003.MRL
+D Fuse SMD NANO2 Slo-Blo 3A T Littelfuse 3A T Surface Mount Fuse, 125 V ac/dc
+K
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_452_454_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

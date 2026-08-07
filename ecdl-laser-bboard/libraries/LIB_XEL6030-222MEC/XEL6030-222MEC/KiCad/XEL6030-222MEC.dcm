@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XEL6030-222MEC
+D Power Inductors - SMD 2.2uH Shld 20% 10A 13.97mOhms AECQ2
+K
+F https://www.coilcraft.com/getmedia/ed8d0314-5cbb-4be3-85da-32235c3701c8/xel6030.pdf
+$ENDCMP
+#
+#End Doc Library

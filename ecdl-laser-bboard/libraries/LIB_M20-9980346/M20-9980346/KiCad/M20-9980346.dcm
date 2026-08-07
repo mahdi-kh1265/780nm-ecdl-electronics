@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M20-9980346
+D M20: 3+3 Pos Plug DIL Straight 3mm THT Connector 6.1mm pin Tin
+K
+F https://content.harwin.com/m/a754d23f2d366891/original/DRG-00478-Technical-Drawing-Datasheet-M20-998-pdf.pdf
+$ENDCMP
+#
+#End Doc Library

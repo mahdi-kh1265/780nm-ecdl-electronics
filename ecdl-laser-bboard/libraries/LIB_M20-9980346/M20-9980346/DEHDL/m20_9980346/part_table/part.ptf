@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'M20_9980346'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Harwin", "M20-9980346" (!) = "", "HDRV6W64P254_2X3_762X508X864P", "Header, Vertical", "855-M20-9980346", "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9980346?qs=%252Bk6%2F5FB6qrmHk2P20oz3FA%3D%3D", "M20: 3+3 Pos Plug DIL Straight 3mm THT Connector 6.1mm pin Tin", "https://content.harwin.com/m/a754d23f2d366891/original/DRG-00478-Technical-Drawing-Datasheet-M20-998-pdf.pdf", "8.64 mm"
+END_PART
+
+END.

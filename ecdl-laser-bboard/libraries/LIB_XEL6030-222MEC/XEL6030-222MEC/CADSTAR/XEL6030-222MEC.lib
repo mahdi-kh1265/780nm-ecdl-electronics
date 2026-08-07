@@ -1,0 +1,16 @@
+.XEL6030-222MEC :1 ;Power Inductors - SMD 2.2uH Shld 20% 10A 13.97mOhms AECQ2
+XEL6030222MEC
+*STM L
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN XEL6030-222MEC
+~!Mouser Part Number (994-XEL6030-222MEC)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Coilcraft/XEL6030-222MEC?qs=wUXugUrL1qxOlDkRTiG1%2Fw%3D%3D)
+~!Manufacturer_Name (COILCRAFT)
+~!Manufacturer_Part_Number (XEL6030-222MEC)
+~!Link Datasheet (https://www.coilcraft.com/getmedia/ed8d0314-5cbb-4be3-85da-32235c3701c8/xel6030.pdf)
+~!Height (3.1mm)
+~!3D_Model (XEL6030-222MEC)
+XEL6030-222MEC
+1.1!U 2.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=Harwin
+PartNumber=M20-9980346
+PartCategory=Connector
+PackageCategory=Header, Vertical
+PinCount=6
+Version=4.1
+Released=2016-07-04 11:52:43
+Downloaded=2026-08-07 08:39:34
+3D=Y

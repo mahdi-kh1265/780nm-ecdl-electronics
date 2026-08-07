@@ -1,0 +1,9 @@
+Manufacturer=LITTELFUSE
+PartNumber=0452003.MRL
+PartCategory=Fuse
+PackageCategory=Fuses Chip
+PinCount=2
+Version=2.1
+Released=2017-03-16 11:12:46
+Downloaded=2026-08-07 07:50:41
+3D=Y

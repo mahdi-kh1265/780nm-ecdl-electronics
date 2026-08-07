@@ -1,0 +1,9 @@
+Manufacturer=SAMTEC
+PartNumber=TSS-106-01-L-D
+PartCategory=Connector
+PackageCategory=Other
+PinCount=12
+Version=2.1
+Released=2020-06-24 14:25:12
+Downloaded=2026-08-07 04:32:51
+3D=N

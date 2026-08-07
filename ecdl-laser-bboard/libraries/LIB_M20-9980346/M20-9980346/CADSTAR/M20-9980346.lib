@@ -1,0 +1,16 @@
+.M20-9980346 :1 ;M20: 3+3 Pos Plug DIL Straight 3mm THT Connector 6.1mm pin Tin
+HDRV6W64P254_2X3_762X508X864P
+*STM J
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6"
+*MXP 6
+*DFN M20-9980346
+~!Mouser Part Number (855-M20-9980346)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Harwin/M20-9980346?qs=%252Bk6%2F5FB6qrmHk2P20oz3FA%3D%3D)
+~!Manufacturer_Name (Harwin)
+~!Manufacturer_Part_Number (M20-9980346)
+~!Link Datasheet (https://content.harwin.com/m/a754d23f2d366891/original/DRG-00478-Technical-Drawing-Datasheet-M20-998-pdf.pdf)
+~!Height (8.64mm)
+~!3D_Model (M20-9980346)
+M20-9980346
+1.1!U 3.1!U 5.1!U 2.1!U 4.1!U 6.1!U 

@@ -1,0 +1,9 @@
+Manufacturer=COILCRAFT
+PartNumber=XEL6030-222MEC
+PartCategory=Inductor
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2023-09-06 11:16:29
+Downloaded=2026-08-07 07:41:30
+3D=Y

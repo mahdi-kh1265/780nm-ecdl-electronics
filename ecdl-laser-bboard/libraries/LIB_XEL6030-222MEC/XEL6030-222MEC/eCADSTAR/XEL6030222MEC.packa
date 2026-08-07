@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XEL6030-222MEC"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-09-06-11:16:29)
+    (mountForm default
+        (footprintRef "XEL6030222MEC")
+        (spec "System")
+    )
+)

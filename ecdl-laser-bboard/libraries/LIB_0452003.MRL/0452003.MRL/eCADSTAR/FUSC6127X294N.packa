@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "0452003_MRL"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-11-01-15:41:41)
+    (mountForm default
+        (footprintRef "FUSC6127X294N")
+        (spec "System")
+    )
+)

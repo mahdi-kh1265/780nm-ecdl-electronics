@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TSS-106-01-L-D"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-06-24-14:25:12)
+    (mountForm default
+        (footprintRef "TSS-106-XX-YYY-D")
+        (spec "System")
+    )
+)

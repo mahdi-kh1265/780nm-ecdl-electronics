@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TSS_106_01_L_D'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "SAMTEC", "TSS-106-01-L-D" (!) = "", "TSS-106-XX-YYY-D", "Other", "200-TSS10601LD", "https://www.mouser.com/Search/Refine.aspx?Keyword=200-TSS10601LD", ".100" Shrouded Terminal Strip", "https://componentsearchengine.com/Datasheets/1/TSS-106-01-L-D.pdf"
+END_PART
+
+END.

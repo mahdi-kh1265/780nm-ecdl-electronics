@@ -1,0 +1,128 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "M20-9980346"
+   (description "M20: 3+3 Pos Plug DIL Straight 3mm THT Connector 6.1mm pin Tin")
+   (family "CON")
+   (package "HDRV6W64P254_2X3_762X508X864P")
+   (attribute "Datasheet Link" "https://content.harwin.com/m/a754d23f2d366891/original/DRG-00478-Technical-Drawing-Datasheet-M20-998-pdf.pdf")
+   (attribute "Geometry.Height" "8.64mm")
+   (attribute "Mouser Part Number" "855-M20-9980346")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/M20-9980346?qs=%252Bk6%2F5FB6qrmHk2P20oz3FA%3D%3D")
+   (attribute "Manufacturer_Name" "Harwin")
+   (attribute "Manufacturer_Part_Number" "M20-9980346")
+   (gate
+    (symbol "M20-9980346")
+    (pin "1" 1 PS)
+    (pin "3" 3 PS)
+    (pin "5" 5 PS)
+    (pin "2" 2 PS)
+    (pin "4" 4 PS)
+    (pin "6" 6 PS)
+   )
+  )
+  (symbol "M20-9980346"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -200) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 800 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "HDRV6W64P254_2X3_762X508X864P"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.05)
+     (path
+      (closed false)
+      (pt -1.52 -1.52)
+      (pt -1.52 4.06)
+      (pt 6.6 4.06)
+      (pt 6.6 -1.52)
+      (pt -1.52 -1.52))))
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.27 -1.27)
+      (pt -1.27 3.81)
+      (pt 6.35 3.81)
+      (pt 6.35 -1.27)
+      (pt -1.27 -1.27))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1.27 0)
+      (pt -1.27 -1.27)
+      (pt 6.35 -1.27)
+      (pt 6.35 3.81)
+      (pt 0 3.81))))
+   (leg 1 (pt 0 0) (padstack 1))
+   (leg 2 (pt 0 2.54) (padstack 0))
+   (leg 3 (pt 2.54 0) (padstack 0))
+   (leg 4 (pt 2.54 2.54) (padstack 0))
+   (leg 5 (pt 5.08 0) (padstack 0))
+   (leg 6 (pt 5.08 2.54) (padstack 0))
+   (padstack 0
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (round 1.65))
+    (pad (layer INNER) (round 1.65))
+    (pad (layer BCOP) (round 1.65))
+   )
+   (padstack 1
+    (hole 1.1)
+    (plated true)
+    (pad (layer TCOP) (square 1.65))
+    (pad (layer INNER) (round 1.65))
+    (pad (layer BCOP) (square 1.65))
+   )
+   (model "M20-9980346.stp"
+    (euler 0 0 0)
+    (offset 0 0 0)
+   )
+  )
+ )
+)
