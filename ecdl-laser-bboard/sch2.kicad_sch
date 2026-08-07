@@ -3246,12 +3246,6 @@
 		(uuid "56e86163-ae7b-4aea-a7e0-0d4f32a28fe3")
 	)
 	(junction
-		(at 254 69.85)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6457b195-e74a-48f6-b042-f683d846d610")
-	)
-	(junction
 		(at 135.89 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3498,6 +3492,16 @@
 			(type default)
 		)
 		(uuid "0016aea0-43bf-4829-8a6b-5774608d86cb")
+	)
+	(wire
+		(pts
+			(xy 254 67.31) (xy 254 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02fe9aaf-bc1e-4007-9301-0225ee614ff4")
 	)
 	(wire
 		(pts
@@ -4288,16 +4292,6 @@
 			(type default)
 		)
 		(uuid "5f3c07c7-897c-4762-a579-656cf96b312f")
-	)
-	(wire
-		(pts
-			(xy 254 69.85) (xy 254 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ff52ab6-0eab-47dd-8876-defb66395ab6")
 	)
 	(wire
 		(pts
@@ -5578,16 +5572,6 @@
 			(type default)
 		)
 		(uuid "e986fdbd-814a-4fbf-a540-1edd622f95b8")
-	)
-	(wire
-		(pts
-			(xy 254 67.31) (xy 254 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb68593d-273c-4e9f-a8e2-4fd2c6aa34a4")
 	)
 	(wire
 		(pts
@@ -7213,7 +7197,7 @@
 	)
 	(global_label "LDTC_COM"
 		(shape input)
-		(at 254 69.85 0)
+		(at 254 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7223,7 +7207,7 @@
 		)
 		(uuid "b6914e2a-a854-4074-a69d-35a8032100ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.5404 69.85 0)
+			(at 266.5404 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11436,7 +11420,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "1k"
 			(at 128.905 45.593 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12554,7 +12538,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "1k"
 			(at 142.24 34.798 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13038,7 +13022,7 @@
 				)
 			)
 		)
-		(property "Value" "7.5k"
+		(property "Value" "63.4k"
 			(at 245.11 24.13 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13834,7 +13818,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "1k"
 			(at 145.796 28.448 90)
 			(show_name no)
 			(do_not_autoplace no)
