@@ -661,7 +661,7 @@
         "uuid": "a8ed137d-46ee-4955-b86c-bc6ff0698adf"
       }
     ],
-    "used_designators": "R51-52,C53-54",
+    "used_designators": "J8-11,IC4,R51-81,C53-70,U4,#PWR61",
     "variants": []
   },
   "sheets": [
@@ -672,6 +672,10 @@
     [
       "91584f71-19fb-40ce-b62e-992541ded123",
       "sch2"
+    ],
+    [
+      "96ba7c94-12c5-4842-83f1-55ad0d352725",
+      "sch3"
     ]
   ],
   "text_variables": {},

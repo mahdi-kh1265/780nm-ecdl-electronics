@@ -830,171 +830,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2931,6 +2766,42 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "ACT T MON\n"
+		(exclude_from_sim no)
+		(at 212.09 152.654 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "1a23333a-a457-429d-98da-f479c0522e07")
+	)
+	(text "SET T MON"
+		(exclude_from_sim no)
+		(at 158.496 183.388 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "3a75e365-7902-4f58-837e-9377b26eb9a1")
+	)
+	(text "LD P Mon"
+		(exclude_from_sim no)
+		(at 104.902 183.642 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "4de0cf8e-5c2e-45a4-961c-8bdf9425b265")
+	)
 	(text "Fast Loop Sensitivity Selection"
 		(exclude_from_sim no)
 		(at 142.24 102.616 0)
@@ -2978,6 +2849,18 @@
 			)
 		)
 		(uuid "8f654e22-cce3-445b-b4ed-ab089b83962b")
+	)
+	(text "LD I Mon"
+		(exclude_from_sim no)
+		(at 42.672 182.372 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+		)
+		(uuid "acd706f0-a742-4791-85f7-6101060d3455")
 	)
 	(text "True-Zero Supply "
 		(exclude_from_sim no)
@@ -3028,6 +2911,12 @@
 		(uuid "094fda0f-cd15-4af1-a50d-66a4544eefcf")
 	)
 	(junction
+		(at 175.26 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09e47765-b7cd-454d-8426-2203e9e2b958")
+	)
+	(junction
 		(at 257.81 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3046,10 +2935,28 @@
 		(uuid "1160ab1e-8aaf-49d0-aefa-24f9c4c4d759")
 	)
 	(junction
+		(at 243.84 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1409c3df-2589-4186-ac7b-1f3944cf6d91")
+	)
+	(junction
 		(at 69.85 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "154372e5-3262-4a9e-abcc-88182e7d97d6")
+	)
+	(junction
+		(at 104.14 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "180cafc9-e9ae-4ce4-95e6-c10664381d52")
+	)
+	(junction
+		(at 31.75 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1b24f9f6-ee6c-4184-ac14-c76a4151ff4f")
 	)
 	(junction
 		(at 146.05 72.39)
@@ -3082,10 +2989,28 @@
 		(uuid "217677b0-39d9-4e4e-b766-2cf933424245")
 	)
 	(junction
+		(at 156.21 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "28fc915a-8540-44c9-9bdf-d7f505c000ea")
+	)
+	(junction
+		(at 262.89 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2d3952c0-88f2-4563-8f86-2f45e63a2ef8")
+	)
+	(junction
 		(at 275.59 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37a9f794-701d-488d-ae83-e6bf6aba3774")
+	)
+	(junction
+		(at 50.8 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46987099-bdcc-4b25-9405-8266e4ebf746")
 	)
 	(junction
 		(at 49.53 38.1)
@@ -3094,10 +3019,28 @@
 		(uuid "49a83b4e-7b8f-433e-9653-a00f751d362f")
 	)
 	(junction
+		(at 243.84 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b7452ac-5fae-477a-bf1f-9ea017751857")
+	)
+	(junction
 		(at 129.54 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5116bcb4-97d4-41dd-9a7f-2b6b04d8281f")
+	)
+	(junction
+		(at 31.75 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56194e78-7940-4517-b8a6-9a314bf44390")
+	)
+	(junction
+		(at 254 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6457b195-e74a-48f6-b042-f683d846d610")
 	)
 	(junction
 		(at 135.89 72.39)
@@ -3142,6 +3085,18 @@
 		(uuid "8243acc2-ec93-4a2d-ba65-e9e61ca09828")
 	)
 	(junction
+		(at 156.21 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "854199bb-d10a-4186-91eb-2b4908dd2cad")
+	)
+	(junction
+		(at 93.98 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8abc69b6-8485-46a2-83ca-49c41ee584b1")
+	)
+	(junction
 		(at 201.93 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3160,10 +3115,22 @@
 		(uuid "903e0d15-a017-44b8-afa6-d7924225517f")
 	)
 	(junction
+		(at 93.98 170.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90453a62-8689-4ac2-b8dd-52cecd178410")
+	)
+	(junction
 		(at 199.39 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90faa062-8959-4767-89fb-e7e114ca371e")
+	)
+	(junction
+		(at 254 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9112d119-2f74-4b62-a283-f42908000020")
 	)
 	(junction
 		(at 215.9 87.63)
@@ -3178,6 +3145,12 @@
 		(uuid "974f47c6-ecd0-49df-bc16-c9da4ecd0805")
 	)
 	(junction
+		(at 41.91 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98079118-dd27-4359-a233-ddcb549fdeb1")
+	)
+	(junction
 		(at 39.37 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3188,6 +3161,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a16ddd47-e2b7-4eda-ab3c-807766520d4f")
+	)
+	(junction
+		(at 166.37 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a1d62a00-87f0-4528-952b-e0220ef3dba6")
 	)
 	(junction
 		(at 36.83 27.94)
@@ -3206,6 +3185,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b638916c-1d38-4613-a3d8-91da53f79b0e")
+	)
+	(junction
+		(at 113.03 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b713922a-97ee-4aa0-a3a5-a7910264f5c4")
 	)
 	(junction
 		(at 266.7 27.94)
@@ -3275,6 +3260,16 @@
 	)
 	(wire
 		(pts
+			(xy 246.38 139.7) (xy 243.84 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0387ae50-e2ed-4e67-978d-df32f49c9d12")
+	)
+	(wire
+		(pts
 			(xy 146.05 90.17) (xy 156.21 90.17)
 		)
 		(stroke
@@ -3282,6 +3277,16 @@
 			(type default)
 		)
 		(uuid "03bff72e-7c06-489a-90dc-dc2180e4e2ef")
+	)
+	(wire
+		(pts
+			(xy 96.52 152.4) (xy 93.98 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bb4c27-738d-4abf-8455-351ce28641c7")
 	)
 	(wire
 		(pts
@@ -3385,6 +3390,26 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 139.7) (xy 266.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14379356-6fce-492b-aa6d-04ce4c0ee465")
+	)
+	(wire
+		(pts
+			(xy 93.98 171.45) (xy 93.98 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "155abd31-0d43-4121-be65-66c35491e706")
+	)
+	(wire
+		(pts
 			(xy 237.49 92.71) (xy 237.49 100.33)
 		)
 		(stroke
@@ -3425,6 +3450,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 157.48) (xy 243.84 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ce3a9cf-5b64-4d7a-8fa9-c4d7081c16dc")
+	)
+	(wire
+		(pts
 			(xy 36.83 35.56) (xy 38.1 35.56)
 		)
 		(stroke
@@ -3455,6 +3490,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 134.62) (xy 161.29 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22298ec1-856b-42a8-a397-a88111d64bcc")
+	)
+	(wire
+		(pts
 			(xy 266.7 27.94) (xy 257.81 27.94)
 		)
 		(stroke
@@ -3462,6 +3507,16 @@
 			(type default)
 		)
 		(uuid "23cf736e-c8aa-4131-8970-0df361973e8c")
+	)
+	(wire
+		(pts
+			(xy 243.84 158.75) (xy 243.84 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d91d53-718b-408f-b6b6-455ac73aae20")
 	)
 	(polyline
 		(pts
@@ -3495,6 +3550,26 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 151.13) (xy 64.77 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aeaafa7-62c4-42bb-a36b-e1eb7fb91050")
+	)
+	(polyline
+		(pts
+			(xy 177.8 198.12) (xy 135.89 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c0999ef-59c9-4d30-99e0-2504cfc7c4df")
+	)
+	(wire
+		(pts
 			(xy 34.29 38.1) (xy 34.29 36.83)
 		)
 		(stroke
@@ -3512,6 +3587,16 @@
 			(type default)
 		)
 		(uuid "2e367947-3efd-4750-8572-7719e8b0a7cb")
+	)
+	(polyline
+		(pts
+			(xy 12.7 198.12) (xy 12.7 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f16152f-cf34-41a9-8fb5-1511c4b51029")
 	)
 	(wire
 		(pts
@@ -3542,6 +3627,26 @@
 			(type default)
 		)
 		(uuid "355f3486-d809-459b-9006-a8cf3f338bf9")
+	)
+	(wire
+		(pts
+			(xy 166.37 152.4) (xy 166.37 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "360c2025-e1f3-43bf-8594-afac3950bd86")
+	)
+	(polyline
+		(pts
+			(xy 198.12 166.37) (xy 177.8 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374c1aaa-2b84-452f-b301-3c51c67f37f0")
 	)
 	(wire
 		(pts
@@ -3595,6 +3700,16 @@
 	)
 	(polyline
 		(pts
+			(xy 177.8 166.37) (xy 177.8 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42d86e1c-98fe-4d58-8bc6-803215c68a03")
+	)
+	(polyline
+		(pts
 			(xy 64.77 11.43) (xy 168.91 11.43)
 		)
 		(stroke
@@ -3635,6 +3750,26 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 134.62) (xy 99.06 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4569b7cd-e499-445e-8736-859f4c878f09")
+	)
+	(wire
+		(pts
+			(xy 166.37 165.1) (xy 166.37 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4582fe6a-cbf3-402b-aa01-81b9d250817d")
+	)
+	(wire
+		(pts
 			(xy 273.05 27.94) (xy 266.7 27.94)
 		)
 		(stroke
@@ -3655,6 +3790,26 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 170.18) (xy 156.21 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47d53de1-44df-48e9-9d39-a5c58ea4044e")
+	)
+	(wire
+		(pts
+			(xy 223.52 121.92) (xy 223.52 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48224e22-aedb-4e0c-be27-ebfac7953c89")
+	)
+	(wire
+		(pts
 			(xy 237.49 100.33) (xy 245.11 100.33)
 		)
 		(stroke
@@ -3662,6 +3817,36 @@
 			(type default)
 		)
 		(uuid "483e6b55-e2df-4252-9fd0-162ed9ff9b2d")
+	)
+	(wire
+		(pts
+			(xy 104.14 170.18) (xy 93.98 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b31b8a4-c396-4179-941f-5ca36fde26a1")
+	)
+	(wire
+		(pts
+			(xy 93.98 152.4) (xy 91.44 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb666de-707b-403a-889b-5c83f145ae68")
+	)
+	(wire
+		(pts
+			(xy 254 139.7) (xy 262.89 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c8a3d40-65e5-4416-b8ed-151e2c837273")
 	)
 	(wire
 		(pts
@@ -3685,13 +3870,43 @@
 	)
 	(wire
 		(pts
-			(xy 254 67.31) (xy 254 69.85)
+			(xy 36.83 121.92) (xy 36.83 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5102d582-018a-4c01-b13a-3a9ce40ce68d")
+		(uuid "533c240c-240d-4e86-bcc3-a038232e4af3")
+	)
+	(wire
+		(pts
+			(xy 41.91 163.83) (xy 41.91 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539a732b-6f6b-4f00-827e-07cf90e44bc1")
+	)
+	(wire
+		(pts
+			(xy 186.69 152.4) (xy 189.23 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54c28fa5-4793-4e8a-87db-dec12a96171c")
+	)
+	(wire
+		(pts
+			(xy 87.63 123.19) (xy 91.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5638a2ff-7f35-4868-9c98-1532a10ed392")
 	)
 	(wire
 		(pts
@@ -3712,6 +3927,16 @@
 			(type default)
 		)
 		(uuid "584d4d6a-6e09-4376-8d3b-1e72fc0fb317")
+	)
+	(polyline
+		(pts
+			(xy 73.66 113.03) (xy 73.66 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "591664a0-5583-4d9d-8f84-8a155d4f21c7")
 	)
 	(wire
 		(pts
@@ -3765,6 +3990,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 151.13) (xy 41.91 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e40394b-931a-4de5-9d24-87f7ede18551")
+	)
+	(wire
+		(pts
 			(xy 142.24 30.48) (xy 132.08 30.48)
 		)
 		(stroke
@@ -3772,6 +4007,16 @@
 			(type default)
 		)
 		(uuid "5f3c07c7-897c-4762-a579-656cf96b312f")
+	)
+	(wire
+		(pts
+			(xy 254 69.85) (xy 254 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ff52ab6-0eab-47dd-8876-defb66395ab6")
 	)
 	(wire
 		(pts
@@ -3783,6 +4028,16 @@
 		)
 		(uuid "600f5b5f-454e-4aec-b21a-4e0335cced60")
 	)
+	(wire
+		(pts
+			(xy 25.4 121.92) (xy 29.21 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6010c55d-7c79-4e1a-a6b3-5b8711a701c2")
+	)
 	(polyline
 		(pts
 			(xy 64.77 12.065) (xy 64.77 55.88)
@@ -3792,6 +4047,16 @@
 			(type default)
 		)
 		(uuid "60f26639-00fb-48c1-ad58-1f713fd95322")
+	)
+	(polyline
+		(pts
+			(xy 73.66 198.12) (xy 12.7 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66c010a4-7905-4822-80b8-211d31ea726e")
 	)
 	(wire
 		(pts
@@ -3825,6 +4090,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 160.02) (xy 127 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a48a4c6-d8c8-4f6b-b1bf-3fb0d40c32c4")
+	)
+	(wire
+		(pts
 			(xy 132.08 30.48) (xy 129.54 30.48)
 		)
 		(stroke
@@ -3832,6 +4107,16 @@
 			(type default)
 		)
 		(uuid "6b4f6f8e-ea89-4d0d-9c1b-16d3fc48c49a")
+	)
+	(wire
+		(pts
+			(xy 124.46 152.4) (xy 127 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b885f58-6cc5-4122-a03e-074ea9958d28")
 	)
 	(polyline
 		(pts
@@ -3893,6 +4178,36 @@
 		)
 		(uuid "70e88d6b-852b-4dd9-9382-cade0e62e392")
 	)
+	(wire
+		(pts
+			(xy 149.86 123.19) (xy 153.67 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "714290a0-7cb0-4959-b632-65fcb2e51f6f")
+	)
+	(polyline
+		(pts
+			(xy 198.12 113.03) (xy 198.12 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718ba334-4770-4071-ba4b-f54dea403f4a")
+	)
+	(wire
+		(pts
+			(xy 93.98 152.4) (xy 93.98 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7469e715-b26b-4601-9013-62214d717ab3")
+	)
 	(polyline
 		(pts
 			(xy 283.21 90.17) (xy 252.73 90.17)
@@ -3922,6 +4237,16 @@
 			(type default)
 		)
 		(uuid "78ccd8e3-2cfc-4c08-994c-7527c6c9454d")
+	)
+	(wire
+		(pts
+			(xy 31.75 170.18) (xy 31.75 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a830a9a-4e60-46c4-9bdb-c1121baac6df")
 	)
 	(wire
 		(pts
@@ -3995,6 +4320,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 152.4) (xy 113.03 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "822c6f35-b633-419d-a703-e334c4ed4405")
+	)
+	(wire
+		(pts
 			(xy 254 82.55) (xy 254 87.63)
 		)
 		(stroke
@@ -4063,6 +4398,16 @@
 		)
 		(uuid "89cf924d-023f-4b9f-bac5-2ae4177511cb")
 	)
+	(wire
+		(pts
+			(xy 34.29 151.13) (xy 31.75 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a87ab35-48c0-4bdf-a42e-30fbee2940fb")
+	)
 	(polyline
 		(pts
 			(xy 210.82 113.03) (xy 283.21 113.03)
@@ -4083,6 +4428,16 @@
 		)
 		(uuid "8ca12701-5f0b-423b-a607-a0a93679c157")
 	)
+	(wire
+		(pts
+			(xy 243.84 139.7) (xy 243.84 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d289e48-4eed-4741-b4a5-91f65bc35eda")
+	)
 	(polyline
 		(pts
 			(xy 110.49 55.88) (xy 110.49 113.03)
@@ -4102,6 +4457,16 @@
 			(type default)
 		)
 		(uuid "918fbf92-c3fb-45e7-adb6-329b5c4d586a")
+	)
+	(wire
+		(pts
+			(xy 50.8 151.13) (xy 54.61 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91fb4776-0e81-4555-9636-98dac4b19b97")
 	)
 	(wire
 		(pts
@@ -4153,6 +4518,26 @@
 		)
 		(uuid "99b70a8e-2a1a-4125-8270-8ecbed9510e6")
 	)
+	(wire
+		(pts
+			(xy 175.26 152.4) (xy 179.07 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b621f87-b4e7-4fd7-9eec-e3a49637db61")
+	)
+	(wire
+		(pts
+			(xy 41.91 168.91) (xy 31.75 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bd61807-0da3-42f6-a4a6-857a04489ecc")
+	)
 	(polyline
 		(pts
 			(xy 210.82 113.03) (xy 210.82 86.36)
@@ -4192,6 +4577,26 @@
 			(type default)
 		)
 		(uuid "9f2daf15-f94c-49cf-bdcb-6544c969c8ee")
+	)
+	(polyline
+		(pts
+			(xy 12.7 198.12) (xy 12.7 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ff8267b-8e83-492a-ab61-4bf7945b7f98")
+	)
+	(wire
+		(pts
+			(xy 99.06 123.19) (xy 99.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b23c90-22d3-425e-b5c3-c08d0a27b64c")
 	)
 	(polyline
 		(pts
@@ -4245,6 +4650,26 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 152.4) (xy 116.84 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2f663e-521d-44f1-b8c0-15fbb74c45f2")
+	)
+	(wire
+		(pts
+			(xy 156.21 152.4) (xy 153.67 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab4a7b83-523f-4bfd-ad12-a2334d4da967")
+	)
+	(wire
+		(pts
 			(xy 234.95 107.95) (xy 234.95 109.22)
 		)
 		(stroke
@@ -4262,6 +4687,16 @@
 			(type default)
 		)
 		(uuid "adfce6c7-f720-4616-81b1-32b0cfa74226")
+	)
+	(wire
+		(pts
+			(xy 104.14 165.1) (xy 104.14 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae6a3642-a273-4631-bc0b-10e4ad2f3be5")
 	)
 	(polyline
 		(pts
@@ -4315,6 +4750,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 152.4) (xy 104.14 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78f1919-a482-4258-b1c3-6e02b37d3da4")
+	)
+	(wire
+		(pts
 			(xy 68.58 33.02) (xy 77.47 33.02)
 		)
 		(stroke
@@ -4322,6 +4767,16 @@
 			(type default)
 		)
 		(uuid "b7926155-bae9-41cc-9231-260a6ba19208")
+	)
+	(wire
+		(pts
+			(xy 175.26 160.02) (xy 189.23 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9f81fd7-d4ca-4cd3-afa3-352f22d6b5ea")
 	)
 	(wire
 		(pts
@@ -4342,6 +4797,16 @@
 			(type default)
 		)
 		(uuid "bba3c266-26af-4152-b27a-6ba9254059fe")
+	)
+	(wire
+		(pts
+			(xy 156.21 152.4) (xy 156.21 154.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcce3e3d-1289-4663-8cef-76c67c9bcfd8")
 	)
 	(wire
 		(pts
@@ -4372,6 +4837,36 @@
 			(type default)
 		)
 		(uuid "bfbb608a-666e-4033-878d-a332a4f2077d")
+	)
+	(wire
+		(pts
+			(xy 212.09 121.92) (xy 215.9 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c18f8cac-abef-410b-8775-cff6296ac417")
+	)
+	(wire
+		(pts
+			(xy 41.91 151.13) (xy 50.8 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c37f7bb4-29e4-42d6-9726-e9f4546caf71")
+	)
+	(wire
+		(pts
+			(xy 223.52 133.35) (xy 223.52 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c47dbeff-0912-4e6d-bb9e-e1cb3f8f5b46")
 	)
 	(wire
 		(pts
@@ -4455,6 +4950,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 133.35) (xy 36.83 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1ea6867-ef14-40b4-8109-7d7078c391f4")
+	)
+	(wire
+		(pts
 			(xy 49.53 38.1) (xy 34.29 38.1)
 		)
 		(stroke
@@ -4485,6 +4990,26 @@
 	)
 	(polyline
 		(pts
+			(xy 135.89 198.12) (xy 72.39 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d472ddee-0946-4557-9af9-cbc58c619963")
+	)
+	(wire
+		(pts
+			(xy 254 152.4) (xy 254 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4afc4c3-0f50-4ecd-ac43-c58680f7f418")
+	)
+	(polyline
+		(pts
 			(xy 12.065 12.065) (xy 64.77 12.065)
 		)
 		(stroke
@@ -4502,6 +5027,26 @@
 			(type default)
 		)
 		(uuid "d83318ae-b52c-473b-a371-283a3f014ef5")
+	)
+	(wire
+		(pts
+			(xy 274.32 139.7) (xy 276.86 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8914d97-7425-427c-983e-eaea802191f5")
+	)
+	(polyline
+		(pts
+			(xy 135.89 113.03) (xy 135.89 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9858f96-d0c1-4792-a03d-8242823fa377")
 	)
 	(wire
 		(pts
@@ -4525,6 +5070,26 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 171.45) (xy 156.21 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3067376-c3f1-4e04-9adc-910bf908549c")
+	)
+	(wire
+		(pts
+			(xy 158.75 152.4) (xy 156.21 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a51e11-ecb1-4d46-8a0d-cf1be7f93301")
+	)
+	(wire
+		(pts
 			(xy 125.73 90.17) (xy 135.89 90.17)
 		)
 		(stroke
@@ -4532,6 +5097,36 @@
 			(type default)
 		)
 		(uuid "e3bf6531-4fcf-4d8e-8dfb-c0c2077c2378")
+	)
+	(wire
+		(pts
+			(xy 31.75 151.13) (xy 31.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45cb8fc-85c1-4887-ac02-4f3b9b9574da")
+	)
+	(wire
+		(pts
+			(xy 254 139.7) (xy 254 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e48f0ee6-5b99-4749-80e9-4df901ccb173")
+	)
+	(wire
+		(pts
+			(xy 243.84 139.7) (xy 241.3 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5208e1d-e05b-406c-8480-ef531960371f")
 	)
 	(wire
 		(pts
@@ -4552,6 +5147,46 @@
 			(type default)
 		)
 		(uuid "e6c8c3fa-e330-4356-be68-ccd3b1cddec5")
+	)
+	(wire
+		(pts
+			(xy 262.89 147.32) (xy 276.86 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7af481d-e93f-460f-9081-2e832ec64e87")
+	)
+	(wire
+		(pts
+			(xy 161.29 123.19) (xy 161.29 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e986fdbd-814a-4fbf-a540-1edd622f95b8")
+	)
+	(wire
+		(pts
+			(xy 254 67.31) (xy 254 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb68593d-273c-4e9f-a8e2-4fd2c6aa34a4")
+	)
+	(wire
+		(pts
+			(xy 166.37 152.4) (xy 175.26 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed552e9c-b1a0-4b5e-8698-6ac64755c077")
 	)
 	(wire
 		(pts
@@ -4603,6 +5238,26 @@
 		)
 		(uuid "f80595cf-186e-4ee1-ae97-705657aabd6c")
 	)
+	(wire
+		(pts
+			(xy 50.8 158.75) (xy 64.77 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcbe1733-3e39-4efc-977b-cb3674d8c0c9")
+	)
+	(wire
+		(pts
+			(xy 31.75 151.13) (xy 29.21 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdc067d6-93fa-4392-adb7-2c1162c7678e")
+	)
 	(polyline
 		(pts
 			(xy 168.91 11.43) (xy 224.79 11.43)
@@ -4633,6 +5288,30 @@
 		)
 		(uuid "ff3789e8-9582-4d2c-a5cc-c7758dd0ab6d")
 	)
+	(global_label "LD_P_MON_-"
+		(shape input)
+		(at 93.98 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0360a674-e896-4067-aa17-39d6172f0f82")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.8391 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LDTC_COM"
 		(shape input)
 		(at 190.5 81.28 180)
@@ -4646,6 +5325,30 @@
 		(uuid "0bdf497b-5a13-4f2e-bd2d-bc4e2e9a6417")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.9596 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LDTC_COM"
+		(shape input)
+		(at 175.26 160.02 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10065bef-ebc3-400a-a4c3-0d8069a56aa1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 172.5604 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4681,6 +5384,30 @@
 			)
 		)
 	)
+	(global_label "SET_T_MON_+"
+		(shape input)
+		(at 161.29 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "178a6fca-99ed-4722-ac9e-22ce0142e936")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 177.1565 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "-IN_C"
 		(shape input)
 		(at 256.54 80.01 270)
@@ -4702,6 +5429,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "ACT_T_MON_+"
+		(shape input)
+		(at 223.52 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1d7969a0-5ca7-48c5-8c82-9496f3932270")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 239.3866 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -4873,6 +5624,54 @@
 			)
 		)
 	)
+	(global_label "LDTC_COM"
+		(shape input)
+		(at 50.8 158.75 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d6e1550-3669-48fb-9355-74683c265ef3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 171.2904 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LDTC_COM"
+		(shape input)
+		(at 262.89 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2de7884e-5961-4b7a-9993-150b1683a81a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.89 159.8604 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "V_BIAS"
 		(shape input)
 		(at 186.69 95.25 180)
@@ -4918,6 +5717,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "AIN2"
+		(shape input)
+		(at 189.23 152.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3650436e-c366-4644-bcf8-2016898e3f28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 145.1814 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -4993,6 +5816,78 @@
 			)
 		)
 	)
+	(global_label "AIN0"
+		(shape input)
+		(at 64.77 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f1ff111-ff34-4260-9560-f2ca5e42c12a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 64.77 143.9114 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "V_LDP_MON_OUT"
+		(shape input)
+		(at 113.03 152.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "403636bf-d831-4d7c-b64d-b655f213b9c0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 134.1143 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "AIN1"
+		(shape input)
+		(at 127 152.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "408b5d56-9f52-49a5-9568-a638889c3b70")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 127 145.1814 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "V_BIAS"
 		(shape input)
 		(at 187.96 64.77 180)
@@ -5006,6 +5901,54 @@
 		(uuid "4299b7db-bdd5-4f5c-bb4c-a67d2fa33b14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 178.7457 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LD_I_MON_out"
+		(shape input)
+		(at 29.21 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "45f31e37-9451-4eb2-bafa-792d89399c64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.283 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ACT_T_MON_out"
+		(shape input)
+		(at 241.3 139.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4dee116f-a297-49f6-afed-16ee321a576d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 223.9821 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5065,6 +6008,78 @@
 			)
 		)
 	)
+	(global_label "SET_T_MON"
+		(shape input)
+		(at 149.86 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5492f12b-6eb6-4aaa-8516-f72e27466b53")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.5335 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LDTC_COM"
+		(shape input)
+		(at 161.29 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5d86a953-36a8-411f-b1bd-f0a694eea36e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.7496 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LD_P_MON_+"
+		(shape input)
+		(at 99.06 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f01b986-bd16-45a1-9e45-868f6d6aa510")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.2009 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "+IN_C"
 		(shape input)
 		(at 260.35 77.47 270)
@@ -5102,6 +6117,30 @@
 		(uuid "6a5616f0-a2e3-499e-8a62-3cabe4235a6c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 154.94 37.9404 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SET_T_MON_out"
+		(shape input)
+		(at 153.67 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6b8cf825-5654-43ac-914e-59f1dc6dc75e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 136.3522 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5158,6 +6197,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "V_SET_T_MON_OUT"
+		(shape input)
+		(at 175.26 152.4 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "709ac5b8-a366-4286-82fd-94178393c51b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 175.26 132.4211 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5233,6 +6296,30 @@
 			)
 		)
 	)
+	(global_label "V_ACT_T_MON_OUT"
+		(shape input)
+		(at 262.89 139.7 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "79847eb0-413b-4c00-8d6c-13a07ac5f9f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 262.89 119.721 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "LDTC_COM"
 		(shape input)
 		(at 161.29 33.02 270)
@@ -5257,6 +6344,30 @@
 			)
 		)
 	)
+	(global_label "V_LDI_MON_OUT"
+		(shape input)
+		(at 50.8 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7c6f9a01-7acc-4238-9303-0ee5b5253a89")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 133.5095 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "DAC_OUT"
 		(shape input)
 		(at 93.98 27.94 180)
@@ -5270,6 +6381,30 @@
 		(uuid "7c97ccb7-be2b-4f76-b81a-f856ee89a0c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 82.77 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LD_I_MON"
+		(shape input)
+		(at 25.4 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "82626f2d-d719-4aba-a679-28b7b5eab2aa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 13.4643 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5379,6 +6514,30 @@
 	)
 	(global_label "LDTC_COM"
 		(shape input)
+		(at 36.83 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96962e9e-4103-474c-8735-12fc3a593cb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 24.2896 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LDTC_COM"
+		(shape input)
 		(at 234.95 109.22 180)
 		(fields_autoplaced yes)
 		(effects
@@ -5449,6 +6608,78 @@
 			)
 		)
 	)
+	(global_label "SET_T_MON_-"
+		(shape input)
+		(at 156.21 171.45 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4f5e4cb-7d44-4fe0-a3b6-13288b9a2ad8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.3435 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "AIN3"
+		(shape input)
+		(at 276.86 139.7 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a529b9f9-f389-4061-ad4a-c838d76c392d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 276.86 132.4814 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "LDTC_COM"
+		(shape input)
+		(at 223.52 137.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa8ec568-21d7-41c6-a433-d4ebd4e02cce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.9796 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "DAC_SDIN"
 		(shape input)
 		(at 151.13 30.48 270)
@@ -5494,6 +6725,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "LD_I_MON_-"
+		(shape input)
+		(at 31.75 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b199c4bd-c6f2-45b7-b767-f990e88c06a0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.2743 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -5545,9 +6800,9 @@
 			)
 		)
 	)
-	(global_label "V_OUT_BUFF_F"
+	(global_label "LDTC_COM"
 		(shape input)
-		(at 254 67.31 0)
+		(at 254 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5555,9 +6810,9 @@
 			)
 			(justify left)
 		)
-		(uuid "b533c3ba-1f8a-470f-8dcb-1f76bcf37cc5")
+		(uuid "b6914e2a-a854-4074-a69d-35a8032100ae")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 270.4715 67.31 0)
+			(at 266.5404 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5569,9 +6824,57 @@
 			)
 		)
 	)
-	(global_label "V_FUTURE"
+	(global_label "LDTC_COM"
 		(shape input)
-		(at 254 72.39 0)
+		(at 99.06 138.43 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc85e564-edce-4425-b51e-c1c959a87c43")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.5196 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ACT_T_MON"
+		(shape input)
+		(at 212.09 121.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c3b3d14d-39ab-4737-b02b-635971762ac3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 198.7634 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LD_I_MON_+"
+		(shape input)
+		(at 36.83 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5579,9 +6882,9 @@
 			)
 			(justify left)
 		)
-		(uuid "c72cf767-2476-44af-ab99-603c55ed9e74")
+		(uuid "c7623c40-41d2-4246-b8c9-b6ca93e17b34")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 266.1776 72.39 0)
+			(at 51.3057 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5595,7 +6898,7 @@
 	)
 	(global_label "V_NEG"
 		(shape input)
-		(at 99.06 87.63 0)
+		(at 91.44 87.63 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5605,7 +6908,7 @@
 		)
 		(uuid "cdfb2993-f0f9-403f-ba24-ae079b60deab")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.8509 87.63 0)
+			(at 100.2309 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5614,6 +6917,30 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(global_label "LDTC_COM"
+		(shape input)
+		(at 113.03 160.02 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d7c37b77-ae90-4d3c-a41a-9c92f51ec9e1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 113.03 172.5604 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 	)
@@ -5630,6 +6957,30 @@
 		(uuid "dc920d58-08b6-4a15-a2be-b815d4a7c10f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 111.9196 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "ACT_T_MON_-"
+		(shape input)
+		(at 243.84 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcb912be-74cc-41eb-9a1d-ebb773cbb2a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.9734 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5665,6 +7016,30 @@
 			)
 		)
 	)
+	(global_label "LD_P_MON_out"
+		(shape input)
+		(at 91.44 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e5e3ff64-dc2d-4176-b9f5-db833761d586")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 74.8478 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "LDTC_COM"
 		(shape input)
 		(at 187.96 26.67 270)
@@ -5678,6 +7053,30 @@
 		(uuid "eb109d87-1ab4-4322-9b80-0d8faea9e227")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 187.96 39.2104 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "LD_P_MON"
+		(shape input)
+		(at 87.63 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb5ff11e-9cd5-4516-9c2b-5cdd489f42b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.0291 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5782,6 +7181,86 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 33.02 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00e97d1d-4f5d-4f2d-afbe-22805cfe09e9")
+		(property "Reference" "R53"
+			(at 33.02 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 33.02 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 123.698 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 33.02 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6698c9f7-0c42-4a8e-bf99-76f5f47c989d")
+		)
+		(pin "2"
+			(uuid "a6b5a3c1-a85a-47f0-bb61-6c8a7aff7a4f")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R53")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -5950,6 +7429,86 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 100.33 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "01959efa-0208-4542-8961-469db75db4c7")
+		(property "Reference" "R62"
+			(at 100.33 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "37.4"
+			(at 100.33 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 154.178 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 100.33 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0fe679a4-3c25-4e99-a89e-e2cc4804bab1")
+		)
+		(pin "2"
+			(uuid "9a9f7413-f8f3-4225-81dd-fa38a0dbd705")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 190.5 95.25 90)
 		(unit 1)
 		(body_style 1)
@@ -6029,8 +7588,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 95.25 87.63 90)
+		(lib_id "Device:R")
+		(at 182.88 152.4 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6039,9 +7598,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "0aa54d13-3811-4c2a-a8fb-bebf0d985068")
-		(property "Reference" "FB1"
-			(at 95.1992 80.01 90)
+		(uuid "0bf89807-e837-4556-b9d2-538cedde8bf7")
+		(property "Reference" "R70"
+			(at 182.88 146.05 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6050,8 +7609,8 @@
 				)
 			)
 		)
-		(property "Value" "120@100 MHz"
-			(at 95.1992 82.55 90)
+		(property "Value" "1k"
+			(at 182.88 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6061,7 +7620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 89.408 90)
+			(at 182.88 154.178 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6072,7 +7631,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 87.63 0)
+			(at 182.88 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6082,8 +7641,8 @@
 				)
 			)
 		)
-		(property "Description" "Ferrite bead"
-			(at 95.25 87.63 0)
+		(property "Description" "Resistor"
+			(at 182.88 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6094,15 +7653,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "855d3305-2717-4fc8-a09f-54ae5f65ca4b")
+			(uuid "9e8972cb-3da7-4b71-8326-864aabf6a2e7")
 		)
 		(pin "2"
-			(uuid "6e646477-55ca-4c03-8f8c-2f8dd927e5cc")
+			(uuid "aab728c0-b8df-4bef-8962-c82fe0763301")
 		)
 		(instances
 			(project "ecdl-laser-bboard"
 				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
-					(reference "FB1")
+					(reference "R70")
 					(unit 1)
 				)
 			)
@@ -6278,6 +7837,170 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 254 148.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "15a51555-15d5-41d3-9bfa-4207414cd584")
+		(property "Reference" "R75"
+			(at 256.54 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 256.54 149.8599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.778 148.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 254 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01e7215d-7f2f-41c5-bb01-0f2d48cd65c2")
+		)
+		(pin "2"
+			(uuid "4017b273-bd57-49a4-a2d4-aca0b28e7a5c")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R75")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 243.84 146.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "18110347-2903-4013-949e-635887dac322")
+		(property "Reference" "C66"
+			(at 247.65 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "390p"
+			(at 247.65 147.3199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 244.8052 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 243.84 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "59b426d9-e6bb-4af5-aed0-4b1f58f3c1ab")
+		)
+		(pin "2"
+			(uuid "1561c890-5f90-4fbf-9a02-43a8b17d323a")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 219.71 90.17 270)
 		(unit 1)
 		(body_style 1)
@@ -6433,6 +8156,170 @@
 			(project "ecdl-laser-bboard"
 				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
 					(reference "C38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 189.23 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1cad9ebd-3412-4870-aa2a-574a047cdc0d")
+		(property "Reference" "C65"
+			(at 193.04 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 193.04 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.1952 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 189.23 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92fe458d-ee89-48c7-aef1-2db5133cd7e8")
+		)
+		(pin "2"
+			(uuid "057e954e-5a35-4b03-8d7e-a4fe4b707963")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "C65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 31.75 157.48 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1f1d4f7e-2212-480d-bd51-1ab89db394d2")
+		(property "Reference" "C55"
+			(at 35.56 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "390p"
+			(at 35.56 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 32.7152 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 31.75 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e99dd74-337e-4b7a-a840-d2cc18c9dfd4")
+		)
+		(pin "2"
+			(uuid "e5c17f78-4d7f-407d-818b-3d6e1f41563b")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -6766,6 +8653,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 243.84 153.67 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b6d7da2-5679-48b5-9c97-07c2323ed879")
+		(property "Reference" "R71"
+			(at 246.38 152.3999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 246.38 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.618 153.67 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 243.84 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec0fb767-d634-480c-90e8-c3bf95429f6e")
+		)
+		(pin "2"
+			(uuid "f010ebe1-67b4-42b5-85f9-51d10283b55b")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R71")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 113.03 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d19c3ad-a724-4f85-9581-56a8491d5185")
+		(property "Reference" "C61"
+			(at 116.84 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 116.84 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.9952 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 113.03 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5adade72-8811-4849-bab0-77abe77ec300")
+		)
+		(pin "2"
+			(uuid "c84fadd7-da49-4387-a93d-b7b795747af3")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDC")
 		(at 25.4 90.17 0)
 		(unit 1)
@@ -6917,6 +8968,88 @@
 			(project "ecdl-laser-bboard"
 				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
 					(reference "R47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 36.83 129.54 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32e528f2-176e-48eb-b5be-75722587aeaa")
+		(property "Reference" "R54"
+			(at 39.37 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 39.37 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.608 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 36.83 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6590faf9-4556-4456-a47e-06603ed2bf5d")
+		)
+		(pin "2"
+			(uuid "69565b37-5bf1-41af-8837-2e47021160e7")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R54")
 					(unit 1)
 				)
 			)
@@ -7167,6 +9300,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 175.26 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d477274-4ee1-4c3d-9c7c-35abb11923dc")
+		(property "Reference" "C64"
+			(at 179.07 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 179.07 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.2252 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 175.26 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4706107-394d-45fb-9178-848f05cb5b16")
+		)
+		(pin "2"
+			(uuid "37c210e7-5639-4430-8ff7-b62f9b33d03b")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 248.92 31.75 180)
 		(unit 1)
@@ -7408,6 +9623,250 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 161.29 130.81 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4324e09c-a5b8-4fd7-b2fc-d94b652b0930")
+		(property "Reference" "R67"
+			(at 163.83 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 163.83 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.068 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "174d022a-e1fe-4452-adce-dcd6872cbf75")
+		)
+		(pin "2"
+			(uuid "e6135e11-1ff3-47d8-a4c4-b80f115c03a7")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 38.1 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "469f0c8b-7400-4811-af32-47842321eb49")
+		(property "Reference" "R55"
+			(at 38.1 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "37.4"
+			(at 38.1 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 152.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "019426f0-876b-41bc-ae92-cca557953846")
+		)
+		(pin "2"
+			(uuid "50332d3b-e0e1-4159-8904-f9ea57ab9148")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 156.21 166.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a1b18b4-461a-4801-9fe0-b3b780a6aa08")
+		(property "Reference" "R65"
+			(at 158.75 165.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 158.75 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.988 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 156.21 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7d6819c4-dc18-4fa4-9f23-c6709d6fa11d")
+		)
+		(pin "2"
+			(uuid "9f1c2116-7180-4910-ba01-f7cad15d938b")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PESD5V0V1BL:PESD5V0F1BL")
 		(at 193.04 33.02 0)
 		(unit 1)
@@ -7484,6 +9943,88 @@
 			(project "ecdl-laser-bboard"
 				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
 					(reference "CR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4cfdfdd3-05fc-44ea-a947-3788e54af4ca")
+		(property "Reference" "C62"
+			(at 130.81 154.9399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 130.81 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 127.9652 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2d7ae0c-d3ae-4a68-834a-995aba652a0b")
+		)
+		(pin "2"
+			(uuid "fb4ecea8-980c-45fb-ba86-c8bc4a163329")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -7646,6 +10187,86 @@
 			(project "ecdl-laser-bboard"
 				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
 					(reference "C44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "519fc261-5b75-4945-924b-9282d2d08cb4")
+		(property "Reference" "R66"
+			(at 157.48 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 157.48 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 124.968 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ad6f1513-2554-4447-9446-01cb0777560e")
+		)
+		(pin "2"
+			(uuid "eacdbc75-6886-4c99-bcf3-5044d10274ff")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R66")
 					(unit 1)
 				)
 			)
@@ -7913,6 +10534,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 64.77 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67a5eb5f-eb6c-4c47-bf66-d265e30a0d7a")
+		(property "Reference" "C59"
+			(at 68.58 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 68.58 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 65.7352 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a336f8b6-0cab-4d71-ad6d-2b3287bbc843")
+		)
+		(pin "2"
+			(uuid "319c2447-3ece-4df3-8407-14b0fa9be24f")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 245.11 104.14 0)
 		(unit 1)
 		(body_style 1)
@@ -8066,6 +10769,168 @@
 			(project "ecdl-laser-bboard"
 				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
 					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 151.13 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6fb10a01-730c-4a88-ac95-e6bac03822a5")
+		(property "Reference" "R58"
+			(at 58.42 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 58.42 147.32 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 152.908 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 58.42 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b76c3267-381c-4d8e-b134-e1709c812c85")
+		)
+		(pin "2"
+			(uuid "f999bba5-582a-41a1-bca0-c2c5b8ea508b")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 99.06 130.81 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "757ba1e0-1ca6-47c9-ab21-8fe712a60266")
+		(property "Reference" "R61"
+			(at 101.6 129.5399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 101.6 132.0799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.838 130.81 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 99.06 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ed954ed-4b30-4036-85ea-0efe37e3e74f")
+		)
+		(pin "2"
+			(uuid "8cee86ef-5202-496b-b6b1-bc5cb184a7a9")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R61")
 					(unit 1)
 				)
 			)
@@ -8386,6 +11251,250 @@
 			(project "ecdl-laser-bboard"
 				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 41.91 160.02 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "855593b3-67d8-4207-96ac-0c9938916a01")
+		(property "Reference" "R57"
+			(at 44.45 158.7499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 44.45 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.688 160.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 41.91 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afa12952-22ee-4621-a1c4-20b02c316099")
+		)
+		(pin "2"
+			(uuid "8016fd95-b451-4604-b8cd-55f27c3a58d3")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 262.89 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eb9ec39-eb4f-4fa2-ae9b-fb3f69c9a2ae")
+		(property "Reference" "C67"
+			(at 266.7 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 266.7 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 263.8552 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 262.89 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 262.89 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "712c9deb-899e-4486-b45c-a49242941bb2")
+		)
+		(pin "2"
+			(uuid "b6c01e10-921b-48cd-a55e-03ede74a606b")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "C67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 162.56 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ffc1a9b-3498-4d1e-9d4e-da6e696b78ea")
+		(property "Reference" "R68"
+			(at 162.56 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "37.4"
+			(at 162.56 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 154.178 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 162.56 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67d8b24e-6938-4333-b158-03f6d54c99bf")
+		)
+		(pin "2"
+			(uuid "ab26d462-6b3d-4ba1-a136-ac308a6e9b49")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R68")
 					(unit 1)
 				)
 			)
@@ -8715,6 +11824,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 50.8 154.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9555b966-f4ec-4cfa-8e01-1322cd77da29")
+		(property "Reference" "C56"
+			(at 54.61 153.6699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 54.61 156.2099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 51.7652 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 50.8 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 50.8 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ae5102f9-ac8d-4cb0-b7c5-f1166281743a")
+		)
+		(pin "2"
+			(uuid "754c8e77-3095-4a19-b2eb-2f361c75c93b")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 85.09 91.44 0)
 		(unit 1)
 		(body_style 1)
@@ -8950,6 +12141,86 @@
 			(project "ecdl-laser-bboard"
 				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
 					(reference "R29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 250.19 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fa97027-4e45-481e-a308-9e8053558e4b")
+		(property "Reference" "R74"
+			(at 250.19 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "37.4"
+			(at 250.19 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 250.19 141.478 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 250.19 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3b22438-30b5-4ce4-8d0a-9a623e962936")
+		)
+		(pin "2"
+			(uuid "6194f538-cef5-4933-bc90-4861c074777a")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R74")
 					(unit 1)
 				)
 			)
@@ -9194,6 +12465,88 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 276.86 143.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aae8cf35-1b0e-4d6b-88b9-7f91707bbca3")
+		(property "Reference" "C68"
+			(at 280.67 142.2399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 280.67 144.7799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 277.8252 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 276.86 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "19d381b9-d107-4f3d-9149-43605cd2161b")
+		)
+		(pin "2"
+			(uuid "0fd2b374-b4fe-431d-b1a3-ad652b1aa984")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "C68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 54.61 66.04 90)
 		(unit 1)
 		(body_style 1)
@@ -9268,6 +12621,246 @@
 			(project "ecdl-laser-bboard"
 				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
 					(reference "C47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b01d1a5a-9833-4abb-ac57-3a07d0083801")
+		(property "Reference" "R72"
+			(at 219.71 115.57 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 219.71 118.11 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 123.698 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f45e5790-30ae-49cf-b8e2-aae94496cdae")
+		)
+		(pin "2"
+			(uuid "9d4a4a48-9c7a-49e3-952f-470d2b50dc8d")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R72")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 95.25 123.19 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b27a1b8d-bdab-4e78-b2f7-289495a6dea8")
+		(property "Reference" "R60"
+			(at 95.25 116.84 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 95.25 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 124.968 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 95.25 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a1f52074-a1d3-4363-8810-2aa3dc9b78b7")
+		)
+		(pin "2"
+			(uuid "0fa214b1-234e-462e-9a52-bc7334431534")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R60")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 270.51 139.7 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6a968c3-9d71-44ba-8f38-3b282de43dff")
+		(property "Reference" "R76"
+			(at 270.51 133.35 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 270.51 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 141.478 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 270.51 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b6b31250-de29-409b-a3df-d55f26a41b61")
+		)
+		(pin "2"
+			(uuid "8d882bc5-3780-4d0c-8a2f-037246071756")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -9510,6 +13103,170 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 104.14 161.29 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c109ca4b-0419-427e-b782-aa4ba2b1f48e")
+		(property "Reference" "R63"
+			(at 106.68 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 106.68 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.918 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 104.14 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5a1f36c3-462a-4185-9845-9d64ed81c3c2")
+		)
+		(pin "2"
+			(uuid "c626c2f9-920b-4c0c-b18c-b46dc1560cf3")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 223.52 129.54 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c58e722d-8f5c-41df-ae41-d903fc973cf3")
+		(property "Reference" "R73"
+			(at 226.06 128.2699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1M"
+			(at 226.06 130.8099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 225.298 129.54 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 223.52 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 223.52 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02951d0c-c266-4a4b-a048-a8af776ff569")
+		)
+		(pin "2"
+			(uuid "c09cf592-2b0e-423c-82b0-7e76b50b13f8")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R73")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 199.39 77.47 0)
 		(unit 1)
@@ -9585,6 +13342,170 @@
 			(project "ecdl-laser-bboard"
 				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
 					(reference "C43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 156.21 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c78de541-2e91-426f-b67e-2ca7464330a1")
+		(property "Reference" "C63"
+			(at 160.02 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "390p"
+			(at 160.02 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.1752 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 156.21 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 156.21 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "16042861-47e1-4c95-9dda-4fcacbe960f3")
+		)
+		(pin "2"
+			(uuid "30afc760-31b0-4a7c-99b7-ec588cb971d6")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "C63")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 93.98 158.75 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9f6b7a7-ab19-4ed5-98b3-14c1862affdf")
+		(property "Reference" "C60"
+			(at 97.79 157.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "390p"
+			(at 97.79 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 94.9452 162.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 93.98 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29ccacf3-57cf-4f09-a423-0d4bf6f66159")
+		)
+		(pin "2"
+			(uuid "f7e3a117-b357-4e19-a487-4195aad9d7db")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -9746,6 +13667,88 @@
 			(project "ecdl-laser-bboard"
 				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
 					(reference "R34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 31.75 165.1 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc74ec85-398a-45cb-9fee-91efe035e615")
+		(property "Reference" "R56"
+			(at 34.29 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 34.29 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.528 165.1 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 31.75 165.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fda8148b-4645-4450-b78e-18dcc3e28074")
+		)
+		(pin "2"
+			(uuid "18de690d-4c35-45b6-a0f5-e19afd366de4")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -9989,6 +13992,86 @@
 			(project "ecdl-laser-bboard"
 				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
 					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 120.65 152.4 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d65c82a0-cfd1-4e14-b4f6-21d4e028ff77")
+		(property "Reference" "R64"
+			(at 120.65 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 120.65 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 120.65 154.178 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 120.65 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 120.65 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c380e56-6e66-4e6b-99fd-1625500538a3")
+		)
+		(pin "2"
+			(uuid "2a52b5fc-da07-4b86-ab99-ca8c767528d7")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R64")
 					(unit 1)
 				)
 			)
@@ -10405,6 +14488,88 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 166.37 161.29 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f217edf2-d315-4bd4-93e2-3a2b84993725")
+		(property "Reference" "R69"
+			(at 168.91 160.0199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1k"
+			(at 168.91 162.5599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.148 161.29 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 166.37 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "65af3b49-59b4-4b78-9fb8-2a1e9b9dc009")
+		)
+		(pin "2"
+			(uuid "c38cfde8-b9e1-4d14-8377-526286d7264d")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R69")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 135.89 76.2 0)
 		(unit 1)
 		(body_style 1)
@@ -10562,6 +14727,88 @@
 			(project "ecdl-laser-bboard"
 				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
 					(reference "R51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 93.98 166.37 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdbd6b62-adf9-449a-8ec4-a1326c2a1037")
+		(property "Reference" "R59"
+			(at 96.52 165.0999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 96.52 167.6399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.758 166.37 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 93.98 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ff8e023b-1e0c-4cee-8573-da5f98d4be15")
+		)
+		(pin "2"
+			(uuid "e144a492-1ee2-4cef-97b1-9589fed29045")
+		)
+		(instances
+			(project "ecdl-laser-bboard"
+				(path "/a8ed137d-46ee-4955-b86c-bc6ff0698adf/91584f71-19fb-40ce-b62e-992541ded123"
+					(reference "R59")
 					(unit 1)
 				)
 			)
