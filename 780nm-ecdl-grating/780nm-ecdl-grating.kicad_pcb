@@ -8838,7 +8838,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R26"
-			(at 3.018148 0.05 0)
+			(at 3.395 -0.395 0)
 			(layer "F.SilkS")
 			(uuid "80416163-356a-488e-8474-2bedc362f344")
 			(effects
@@ -9633,7 +9633,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C43"
-			(at -3.095 0.02 90)
+			(at -3.715 -0.02 90)
 			(layer "F.SilkS")
 			(uuid "d3b58863-afd4-45e9-bf9a-3a6dd92137c0")
 			(effects
@@ -10495,9 +10495,9 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C44"
-			(at 3.04079 -0.025 0)
+			(at 3.995 1.985 0)
 			(layer "F.SilkS")
-			(uuid "74251882-627e-453b-b393-ab5e819552c9")
+			(uuid "d1104d94-9f94-41cc-8cc5-a85019702901")
 			(effects
 				(font
 					(size 1 1)
@@ -10509,7 +10509,7 @@
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b34a1e54-2da1-411e-8dba-2e98a25cac7b")
+			(uuid "118a1d4c-218b-41d5-afcd-baa0549b4920")
 			(effects
 				(font
 					(size 1 1)
@@ -10521,7 +10521,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "64ea8020-ae11-45dd-a599-f90dbf43448b")
+			(uuid "322ca6fe-42c1-48ee-88f4-f1e192d10724")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10532,7 +10532,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3d4be078-5f58-40a2-a54f-a4db63ba4923")
+			(uuid "e98cbf3e-bc4a-4dda-bae4-8af3843e5444")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12729,7 +12729,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R7"
-			(at 2.653069 0.125 90)
+			(at 3.598069 0.11 90)
 			(layer "F.SilkS")
 			(uuid "4674fb80-7d90-4ee7-91d8-2828fee9367a")
 			(effects
@@ -20508,7 +20508,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C45"
-			(at 2.525 0.05 0)
+			(at 4.26 2.39 0)
 			(layer "F.SilkS")
 			(uuid "0694668d-c827-4611-bff8-ee17a3008e9a")
 			(effects
@@ -22377,7 +22377,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R16"
-			(at 3.005 0.09 0)
+			(at 3.365 0.06 0)
 			(layer "F.SilkS")
 			(uuid "44bbd188-32ee-4096-86ad-f2c84eb46c79")
 			(effects
@@ -23737,6 +23737,14 @@
 		(uuid "60f751b2-3bfa-41ed-a265-ddc16ab83e04")
 	)
 	(segment
+		(start 192.54 63.05)
+		(end 192.35 63.24)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "8d4c419c-3b74-4464-bf05-c9322c4cc00d")
+	)
+	(segment
 		(start 186.045 71.375)
 		(end 186.03 71.39)
 		(width 0.2)
@@ -23767,6 +23775,23 @@
 		(layer "F.Cu")
 		(net "GND")
 		(uuid "ee00051c-cf45-4ee8-88ce-0a629786ea2c")
+	)
+	(segment
+		(start 193.3 63.05)
+		(end 192.54 63.05)
+		(width 0.2)
+		(layer "F.Cu")
+		(net "GND")
+		(uuid "fa541252-1ad3-4dcb-ae8c-751838155a96")
+	)
+	(via
+		(at 208.99 68.32)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "00ad9714-982b-419c-83f9-079c157ef5a2")
 	)
 	(via
 		(at 160.75 57.8)
@@ -23958,6 +23983,15 @@
 		(uuid "3870d28b-4b1b-43cd-973e-7bce10966bbc")
 	)
 	(via
+		(at 210.3 68.32)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "3a5c5f1c-1052-4081-ad53-b5df182b8ad3")
+	)
+	(via
 		(at 159.34 81.43)
 		(size 0.6)
 		(drill 0.3)
@@ -24101,6 +24135,15 @@
 		(uuid "539e800d-4bd7-410d-ab38-c0fe88e7753a")
 	)
 	(via
+		(at 183.88 70.3)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "53cf3772-704c-4601-8aa5-050a6ccf0427")
+	)
+	(via
 		(at 202.93 73.46)
 		(size 0.6)
 		(drill 0.3)
@@ -24126,6 +24169,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "5e0be3cf-3128-4e8e-ae7c-d52193e9ce3a")
+	)
+	(via
+		(at 206.99 60.6)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "5e301d30-fa70-4409-9ac8-edee1c35f2f7")
 	)
 	(via
 		(at 237.4 79.37)
@@ -24162,6 +24214,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "659a4be1-de79-483f-9d3b-fb5ce8c0a851")
+	)
+	(via
+		(at 206.98 75.25)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "65b1be07-3362-4433-a9df-22a2032d7d46")
 	)
 	(via
 		(at 192.35 63.24)
@@ -24334,6 +24395,15 @@
 		(uuid "8f035b1a-7c7e-424f-91d5-c0216d4c2142")
 	)
 	(via
+		(at 172.66 64.6)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "8f8eee8d-c208-47d8-ba98-a60bde02756a")
+	)
+	(via
 		(at 186.28 52.53)
 		(size 0.6)
 		(drill 0.3)
@@ -24403,6 +24473,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "9d15f1b4-6798-46e9-8de8-89ff7b4b5f66")
+	)
+	(via
+		(at 188.34 85.33)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "9e012767-1649-4181-9de8-88de15188779")
 	)
 	(via
 		(at 207.98 62.84)
@@ -24520,6 +24599,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "b2d71c75-3720-4145-9181-672da6337501")
+	)
+	(via
+		(at 189.23 87.59)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "b3767388-6c44-410a-9c05-c5fd35725d84")
 	)
 	(via
 		(at 209.13 64.46)
@@ -24647,6 +24735,15 @@
 		(uuid "cf46db61-f869-448a-8330-e99a2d04008c")
 	)
 	(via
+		(at 175.34 94.85)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "cf82ce8b-7849-4b1e-856d-60ab7bd0202e")
+	)
+	(via
 		(at 247.23 53.18)
 		(size 0.6)
 		(drill 0.3)
@@ -24656,6 +24753,15 @@
 		(uuid "cfb1d494-fed4-4238-8658-bc7b88cb8826")
 	)
 	(via
+		(at 151.51 61.85)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "d0f1f466-c433-44f9-b668-0492cd7bac47")
+	)
+	(via
 		(at 237.98 58.13)
 		(size 0.6)
 		(drill 0.3)
@@ -24663,6 +24769,24 @@
 		(free yes)
 		(net "GND")
 		(uuid "d114b72f-5338-4f0d-8b0f-93ae847392c7")
+	)
+	(via
+		(at 184.36 94.81)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "d12c7e37-fa4c-4994-8770-7ef30cab37b0")
+	)
+	(via
+		(at 189.02 88.87)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "d1838960-8f3b-452e-af41-f3010f921121")
 	)
 	(via
 		(at 210.26 64.47)
@@ -24681,6 +24805,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "d3b02792-5077-4722-8c60-7ee4553576c1")
+	)
+	(via
+		(at 206.99 76.39)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "d41a74d5-f645-4c78-bfeb-2bc99202b76a")
 	)
 	(via
 		(at 162.71 76.92)
@@ -24737,6 +24870,15 @@
 		(uuid "ddadf8a3-0b72-4105-ae95-cfc5da7522d2")
 	)
 	(via
+		(at 178.15 94.78)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "df0dcd23-8a22-460c-91d5-edb014557dc7")
+	)
+	(via
 		(at 236.44 85.94)
 		(size 0.6)
 		(drill 0.3)
@@ -24746,6 +24888,15 @@
 		(uuid "df816729-403c-46f1-b63b-75b4a8a091b7")
 	)
 	(via
+		(at 181.33 94.84)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "e2aec23d-dd8b-46dd-8d4b-d9ef2cd97962")
+	)
+	(via
 		(at 152.82 67.42)
 		(size 0.6)
 		(drill 0.3)
@@ -24753,6 +24904,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "e554e7ed-878c-46ce-8bd6-5b19aa45ff48")
+	)
+	(via
+		(at 160.47 61.73)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "e6306c8b-b743-4ee5-a431-e3c17b66ded6")
 	)
 	(via
 		(at 213.71 97.4)
@@ -24780,6 +24940,15 @@
 		(free yes)
 		(net "GND")
 		(uuid "ea69a040-049a-4aa8-84d0-3cd4dd13e1bf")
+	)
+	(via
+		(at 189.06 84.56)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net "GND")
+		(uuid "eacc026c-9ae4-4f77-b750-d3fb02fac6ed")
 	)
 	(via
 		(at 250.03 83.96)
