@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'STTH1R04A'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "STMicroelectronics", "STTH1R04A" (!) = "", "DIOM5126X265N", "Diodes Moulded", "511-STTH1R04A", "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STTH1R04A?qs=%252BB84zevwoRDGXZQYojB4Uw%3D%3D", "Rectifiers Ultrafast recovery Diode 1 A - 400 V", "https://www.st.com/resource/en/datasheet/stth1r04.pdf", "2.65 mm"
+END_PART
+
+END.

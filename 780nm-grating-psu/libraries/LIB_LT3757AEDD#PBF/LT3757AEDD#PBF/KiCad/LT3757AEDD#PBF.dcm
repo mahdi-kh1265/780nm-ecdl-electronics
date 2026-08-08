@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LT3757AEDD#PBF
+D Switching Controllers Boost, Fly, SEPIC & Inv Cntr
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/lt3757-3757a.pdf
+$ENDCMP
+#
+#End Doc Library

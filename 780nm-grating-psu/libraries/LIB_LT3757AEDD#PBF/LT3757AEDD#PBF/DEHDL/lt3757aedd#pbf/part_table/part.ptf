@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LT3757AEDD#PBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LT3757AEDD#PBF" (!) = "", "SON50P300X300X80-11N-D", "Small Outline No-lead", "584-LT3757AEDD#PBF", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT3757AEDDPBF?qs=hVkxg5c3xu8M5j4WPAqQQA%3D%3D", "Switching Controllers Boost, Fly, SEPIC & Inv Cntr", "https://www.analog.com/media/en/technical-documentation/data-sheets/lt3757-3757a.pdf", "0.8 mm"
+END_PART
+
+END.

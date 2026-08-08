@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "FDD3N40TM"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-06-25-08:45:40)
+    (mountForm default
+        (footprintRef "FDD3N40TM")
+        (spec "System")
+    )
+)

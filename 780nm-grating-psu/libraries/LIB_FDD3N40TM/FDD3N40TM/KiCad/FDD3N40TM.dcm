@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP FDD3N40TM
+D Low gate charge ( Typ. 4.5nC); 100% avalanche tested; RDS(on) = 3.4 ( Max.)@ VGS = 10V, ID = 1A; Low Crss ( Typ. 3.7pF)
+K
+F https://www.onsemi.com/pub/Collateral/FDU3N40-D.pdf
+$ENDCMP
+#
+#End Doc Library

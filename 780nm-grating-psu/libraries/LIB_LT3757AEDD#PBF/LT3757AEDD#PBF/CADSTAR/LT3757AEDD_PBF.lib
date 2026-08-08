@@ -1,0 +1,16 @@
+.LT3757AEDD_PBF :1 ;Switching Controllers Boost, Fly, SEPIC & Inv Cntr
+SON50P300X300X80-11N-D
+*STM IC
+*NGS
+*PLB 1="VC" 2="FBX" 3="SS" 4="RT" 5="SYNC" 6="SENSE" 7="GATE" 8="INTVCC" 9="'SHDN'/UVLO" 10="VIN" 11="GND"
+*MXP 11
+*DFN LT3757AEDD_PBF
+~!Mouser Part Number (584-LT3757AEDD#PBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT3757AEDDPBF?qs=hVkxg5c3xu8M5j4WPAqQQA%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (LT3757AEDD#PBF)
+~!Link Datasheet (https://www.analog.com/media/en/technical-documentation/data-sheets/lt3757-3757a.pdf)
+~!Height (0.8mm)
+~!3D_Model (LT3757AEDD#PBF)
+LT3757AEDD_PBF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 11.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

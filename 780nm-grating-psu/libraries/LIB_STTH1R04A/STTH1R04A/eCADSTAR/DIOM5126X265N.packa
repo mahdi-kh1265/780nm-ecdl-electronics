@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "STTH1R04A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2025-02-12-15:14:01)
+    (mountForm default
+        (footprintRef "DIOM5126X265N")
+        (spec "System")
+    )
+)

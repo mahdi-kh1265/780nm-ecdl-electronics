@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_2253524"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-09-07-04:12:03)
+    (utime 2026-01-08-14:31:13)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "STTH1R04A")
+)
+
+
+(pinAssign "ECS_2253524"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-09-07-04:12:03)
+    (utime 2026-01-08-14:31:13)
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_2253524")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "STTH1R04A")
+)
+
+
+(part "STTH1R04A"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-09-07-04:12:03)
+    (utime 2026-01-08-14:31:13)
+    (packageRef "STTH1R04A")
+    (pinAssignRef "ECS_2253524")
+    (interface
+        (port "1" (symbPinId 1) (portName "K") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "A") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "D")
+    (property "description" "Rectifiers Ultrafast recovery Diode 1 A - 400 V")
+    (property "Mouser_Part_Number" "511-STTH1R04A")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/STTH1R04A?qs=%252BB84zevwoRDGXZQYojB4Uw%3D%3D")
+    (property "Manufacturer_Name" "STMicroelectronics")
+    (property "Manufacturer_Part_Number" "STTH1R04A")
+    (property "Datasheet_Link" "https://www.st.com/resource/en/datasheet/stth1r04.pdf")
+    (property "compAreaTopHeight" 2.65)
+)
+
+

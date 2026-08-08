@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP STN3N40K3
+D N-channel 400 V, 3  typ., 1.8 A SuperMESH3 Power MOSFET in a SOT-223 package
+K
+F https://www.st.com/resource/en/datasheet/stn3n40k3.pdf
+$ENDCMP
+#
+#End Doc Library

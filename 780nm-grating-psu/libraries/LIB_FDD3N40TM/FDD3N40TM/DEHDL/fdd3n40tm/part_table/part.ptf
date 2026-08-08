@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'FDD3N40TM'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "onsemi", "FDD3N40TM" (!) = "", "FDD3N40TM", "Other", "512-FDD3N40TM", "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDD3N40TM?qs=fZj41zbgrf2zZ9fPKAy2hg%3D%3D", "Low gate charge ( Typ. 4.5nC); 100% avalanche tested; RDS(on) = 3.4 ( Max.)@ VGS = 10V, ID = 1A; Low Crss ( Typ. 3.7pF)", "https://www.onsemi.com/pub/Collateral/FDU3N40-D.pdf", "2.39 mm"
+END_PART
+
+END.

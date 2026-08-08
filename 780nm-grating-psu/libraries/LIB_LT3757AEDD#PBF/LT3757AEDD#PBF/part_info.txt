@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=LT3757AEDD#PBF
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=11
+Version=1.1
+Released=2025-05-15 07:54:58
+Downloaded=2026-08-08 21:03:38
+3D=Y

@@ -1,0 +1,15 @@
+.FDD3N40TM :1 ;Low gate charge ( Typ. 4.5nC); 100% avalanche tested; RDS(on) = 3.4 ( Max.)@ VGS = 10V, ID = 1A; Low Crss ( Typ. 3.7pF)
+FDD3N40TM
+*STM Q
+*NGS
+*PLB 1="G" 2="S" 3="D"
+*MXP 3
+*DFN FDD3N40TM
+~!Mouser Part Number (512-FDD3N40TM)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDD3N40TM?qs=fZj41zbgrf2zZ9fPKAy2hg%3D%3D)
+~!Manufacturer_Name (onsemi)
+~!Manufacturer_Part_Number (FDD3N40TM)
+~!Link Datasheet (https://www.onsemi.com/pub/Collateral/FDU3N40-D.pdf)
+~!Height (2.39mm)
+FDD3N40TM
+1.1!U 2.1!U 3.1!U 

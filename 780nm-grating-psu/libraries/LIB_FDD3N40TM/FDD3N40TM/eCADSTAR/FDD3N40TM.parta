@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_1049669"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-03-09-17:31:59)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 3) (portType INOUT))
+        (port "3" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "FDD3N40TM")
+)
+
+
+(pinAssign "ECS_1049669"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-03-09-17:31:59)
+    (utime 2025-01-22-16:53:39)
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_1049669")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "FDD3N40TM")
+)
+
+
+(part "FDD3N40TM"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2018-03-09-17:31:59)
+    (utime 2025-01-22-16:53:39)
+    (packageRef "FDD3N40TM")
+    (pinAssignRef "ECS_1049669")
+    (interface
+        (port "1" (symbPinId 1) (portName "G") (portType INOUT))
+        (port "2" (symbPinId 3) (portName "S") (portType INOUT))
+        (port "3" (symbPinId 2) (portName "D") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "Q")
+    (property "description" "Low gate charge ( Typ. 4.5nC); 100% avalanche tested; RDS(on) = 3.4 ( Max.)@ VGS = 10V, ID = 1A; Low Crss ( Typ. 3.7pF)")
+    (property "Mouser_Part_Number" "512-FDD3N40TM")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDD3N40TM?qs=fZj41zbgrf2zZ9fPKAy2hg%3D%3D")
+    (property "Manufacturer_Name" "onsemi")
+    (property "Manufacturer_Part_Number" "FDD3N40TM")
+    (property "Datasheet_Link" "https://www.onsemi.com/pub/Collateral/FDU3N40-D.pdf")
+    (property "compAreaTopHeight" 2.39)
+)
+
+

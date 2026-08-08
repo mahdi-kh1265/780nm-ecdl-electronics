@@ -1,0 +1,9 @@
+Manufacturer=STMicroelectronics
+PartNumber=STTH1R04A
+PartCategory=Diode
+PackageCategory=Diodes Moulded
+PinCount=2
+Version=2.3
+Released=2020-09-07 04:12:03
+Downloaded=2026-08-08 21:40:09
+3D=Y

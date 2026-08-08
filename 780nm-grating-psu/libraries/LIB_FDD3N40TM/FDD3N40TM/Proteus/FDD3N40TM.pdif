@@ -1,0 +1,172 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "FDD3N40TM"
+   (description "Low gate charge ( Typ. 4.5nC); 100% avalanche tested; RDS(on) = 3.4 ( Max.)@ VGS = 10V, ID = 1A; Low Crss ( Typ. 3.7pF)")
+   (family "TRX")
+   (package "FDD3N40TM")
+   (attribute "Datasheet Link" "https://www.onsemi.com/pub/Collateral/FDU3N40-D.pdf")
+   (attribute "Geometry.Height" "2.39mm")
+   (attribute "Mouser Part Number" "512-FDD3N40TM")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/FDD3N40TM?qs=fZj41zbgrf2zZ9fPKAy2hg%3D%3D")
+   (attribute "Manufacturer_Name" "onsemi")
+   (attribute "Manufacturer_Part_Number" "FDD3N40TM")
+   (gate
+    (symbol "FDD3N40TM")
+    (pin "G" 1 PS)
+    (pin "D" 3 PS)
+    (pin "S" 2 PS)
+   )
+  )
+  (symbol "FDD3N40TM"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (circle (pt 400 100) (pt 100 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 300 -100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 300 300))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 100 0) (pt 200 0) (pt 200 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 100) (pt 230 100))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 300 200) (pt 230 200))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 0) (pt 300 0))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 220) (pt 230 180))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 -20) (pt 230 20))
+   )
+   (graphic
+    (stroke 10)
+    (path (pt 230 80) (pt 230 120))
+   )
+   (graphic
+    (stroke 10)
+    (path (closed true) (pt 230 100) (pt 270 120) (pt 270 80) (pt 230 100))
+   )
+   (terminal
+    (body (symbol "PINSHORT") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 0) (just TOP LEFT) (visible false))
+    (number (pt 80 10) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 400) (rot 90) (mir X) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+   (terminal
+    (body (symbol "PINSHORT") (pt 300 -200) (rot 90) (mir 0) (visible true))
+    (name (pt 0 -20) (rot 90) (just TOP RIGHT) (visible false))
+    (number (pt 0 20) (rot 90) (just TOP LEFT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "FDD3N40TM"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt -3.365 -3.11)
+      (pt 3.365 -3.11)
+      (pt 3.365 3.11)
+      (pt -3.365 3.11)
+      (pt -3.365 -3.11))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.365 3)
+      (pt -3.365 3)
+      (pt -3.365 -3.11)
+      (pt -3.365 -3.11)
+      (pt -3.365 3))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -3.365 -3.11)
+      (pt 3.365 -3.11)
+      (pt 3.365 -3.11)
+      (pt -3.365 -3.11)
+      (pt -3.365 -3.11))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt 3.365 -3.11)
+      (pt 3.365 -3.11)
+      (pt 3.365 3.11)
+      (pt 3.365 3.11)
+      (pt 3.365 -3.11))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -5.5 5.36)
+      (pt 4.365 5.36)
+      (pt 4.365 -7.64)
+      (pt -5.5 -7.64)
+      (pt -5.5 5.36))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -4.5 -5.25)
+      (arc (pt -4.500 -5.250) (pt -4.500 -5.300) (pt -4.400 -5.200) (start 180.0) (sweep 180.0))
+      (pt -4.4 -5.25)
+      (arc (pt -4.400 -5.250) (pt -4.500 -5.300) (pt -4.400 -5.200) (start 180.0) (sweep .0))
+      (pt -4.5 -5.25)
+      (arc (pt -4.500 -5.250) (pt -4.500 -5.300) (pt -4.400 -5.200) (start 180.0) (sweep 180.0))
+      (pt -4.4 -5.25))))
+   (leg 1 (pt -2.300 -5.140) (padstack 0))
+   (leg 2 (pt 0.000 1.110) (padstack 2))
+   (leg 3 (pt 2.300 -5.140) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.400 3.000 0 0 90.000))
+   )
+   (padstack 2
+    (plated false)
+    (pad (layer TCOP) (rectf 6.000 6.500 0 0 90.000))
+   )
+  )
+ )
+)
