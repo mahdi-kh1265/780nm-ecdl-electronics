@@ -1781,6 +1781,16 @@
 		)
 		(uuid "2a0438cd-97da-46cd-93e6-06a6d5e19445")
 	)
+	(polyline
+		(pts
+			(xy 92.075 149.86) (xy 64.77 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f046236-8469-4cab-b941-7ec5a549c2fa")
+	)
 	(wire
 		(pts
 			(xy 27.94 31.75) (xy 36.83 31.75)
