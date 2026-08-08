@@ -2527,7 +2527,7 @@
 			)
 		)
 	)
-	(global_label "LD_P_MON_out"
+	(global_label "SET_T_MON_out"
 		(shape input)
 		(at 82.55 39.37 270)
 		(fields_autoplaced yes)
@@ -2539,7 +2539,7 @@
 		)
 		(uuid "862f2feb-14c5-420a-b67d-9c4bce5d70ed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 55.9622 90)
+			(at 82.55 56.6878 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
