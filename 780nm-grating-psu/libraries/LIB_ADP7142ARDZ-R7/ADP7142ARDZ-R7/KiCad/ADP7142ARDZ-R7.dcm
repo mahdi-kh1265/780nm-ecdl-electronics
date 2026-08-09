@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADP7142ARDZ-R7
+D 40 V, 200 mA, Low Noise, CMOS LDO Linear Regulator
+K
+F https://www.analog.com/ADP7142/datasheet
+$ENDCMP
+#
+#End Doc Library

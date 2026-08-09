@@ -1,0 +1,16 @@
+.LT8618EDDB_TRPBF :1 ;Switching Voltage Regulators High Efficiency 60V/100mA Synchronous Bu
+SON50P200X300X80-11N-D
+*STM IC
+*NGS
+*PLB 1="BST" 2="SW" 3="BIAS" 4="INTVCC" 5="RT" 6="FB" 7="TR/SS" 8="PG" 9="EN/UV" 10="VIN" 11="GND"
+*MXP 11
+*DFN LT8618EDDB_TRPBF
+~!Mouser Part Number (584-LT8618EDDB#TRPBF)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT8618EDDBTRPBF?qs=hWgE7mdIu5Ro6jCGwTYWww%3D%3D)
+~!Manufacturer_Name (Analog Devices)
+~!Manufacturer_Part_Number (LT8618EDDB#TRPBF)
+~!Link Datasheet (https://www.mouser.ch/datasheet/2/609/lt8618_8618_3_3-1893268.pdf)
+~!Height (0.8mm)
+~!3D_Model (LT8618EDDB#TRPBF)
+LT8618EDDB_TRPBF
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 11.1!U 10.1!U 9.1!U 8.1!U 7.1!U 6.1!U 

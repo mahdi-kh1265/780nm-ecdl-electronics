@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LT8618EDDB#TRPBF'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "LT8618EDDB#TRPBF" (!) = "", "SON50P200X300X80-11N-D", "Small Outline No-lead", "584-LT8618EDDB#TRPBF", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/LT8618EDDBTRPBF?qs=hWgE7mdIu5Ro6jCGwTYWww%3D%3D", "Switching Voltage Regulators High Efficiency 60V/100mA Synchronous Bu", "https://www.mouser.ch/datasheet/2/609/lt8618_8618_3_3-1893268.pdf", "0.8 mm"
+END_PART
+
+END.

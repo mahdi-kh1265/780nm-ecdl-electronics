@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ADP7142ARDZ_R7'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Analog Devices", "ADP7142ARDZ-R7" (!) = "", "SOIC127P600X175-9N", "Small Outline Packages", "584-ADP7142ARDZ-R7", "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADP7142ARDZ-R7?qs=hpwIUhX6lWzjrObMcOmL6g%3D%3D", "40 V, 200 mA, Low Noise, CMOS LDO Linear Regulator", "https://www.analog.com/ADP7142/datasheet", "1.75 mm"
+END_PART
+
+END.

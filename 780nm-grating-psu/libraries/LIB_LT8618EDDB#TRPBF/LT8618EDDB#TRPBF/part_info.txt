@@ -1,0 +1,9 @@
+Manufacturer=Analog Devices
+PartNumber=LT8618EDDB#TRPBF
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline No-lead
+PinCount=11
+Version=1.1
+Released=2022-11-04 09:42:56
+Downloaded=2026-08-09 08:04:30
+3D=Y
