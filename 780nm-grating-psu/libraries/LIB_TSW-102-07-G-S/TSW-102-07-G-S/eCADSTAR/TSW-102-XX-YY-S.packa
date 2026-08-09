@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TSW-102-07-G-S"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-06-10-15:19:37)
+    (mountForm default
+        (footprintRef "TSW-102-XX-YY-S")
+        (spec "System")
+    )
+)
