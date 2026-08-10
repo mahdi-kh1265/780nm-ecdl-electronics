@@ -5836,12 +5836,6 @@
 		(uuid "3000b75b-6a5d-4a04-be28-481081548753")
 	)
 	(junction
-		(at 260.35 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "32a5608c-ce31-41c3-bdfa-14860e6d1eca")
-	)
-	(junction
 		(at 123.19 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5906,6 +5900,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5260d411-371a-4d2b-a67c-c857b8467b10")
+	)
+	(junction
+		(at 261.62 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "596268ba-aac4-4c03-a879-2de3fd1eec53")
 	)
 	(junction
 		(at 104.14 142.24)
@@ -6242,6 +6242,16 @@
 			(type default)
 		)
 		(uuid "03f03d6b-05c1-4971-8420-1cf8013cf39d")
+	)
+	(wire
+		(pts
+			(xy 261.62 118.11) (xy 262.89 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0548c708-a60d-4857-846f-74032819f76e")
 	)
 	(wire
 		(pts
@@ -6872,16 +6882,6 @@
 			(type default)
 		)
 		(uuid "6fc1a165-85d7-4a32-80ce-77b1c6e181a7")
-	)
-	(wire
-		(pts
-			(xy 260.35 118.11) (xy 262.89 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70a5be44-c659-4b28-9d2a-6e1131e8d907")
 	)
 	(wire
 		(pts
@@ -7615,6 +7615,16 @@
 	)
 	(wire
 		(pts
+			(xy 261.62 118.11) (xy 260.35 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e317d1b8-b1de-4137-96b4-d15f5c80ee84")
+	)
+	(wire
+		(pts
 			(xy 275.59 120.65) (xy 270.51 120.65)
 		)
 		(stroke
@@ -7722,6 +7732,16 @@
 			(type default)
 		)
 		(uuid "fb402bf9-4447-4bec-9c95-e27fbcd9f875")
+	)
+	(wire
+		(pts
+			(xy 254 118.11) (xy 252.73 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc3d7ed7-fa86-4e68-b4a7-015a1873b440")
 	)
 	(wire
 		(pts
@@ -18212,7 +18232,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 256.54 118.11 90)
+		(at 257.81 118.11 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18222,7 +18242,7 @@
 		(dnp no)
 		(uuid "bdfc99cd-85b1-4c99-a95b-8bb6fc7002ff")
 		(property "Reference" "F1"
-			(at 257.81 122.936 90)
+			(at 259.08 122.936 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18232,7 +18252,7 @@
 			)
 		)
 		(property "Value" "0437001.WRA"
-			(at 257.81 125.476 90)
+			(at 259.08 125.476 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18242,7 +18262,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_1206_3216Metric"
-			(at 256.54 119.888 90)
+			(at 257.81 119.888 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18253,7 +18273,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 118.11 0)
+			(at 257.81 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18264,7 +18284,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 256.54 118.11 0)
+			(at 257.81 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19772,7 +19792,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "MI0603J102R-10"
 			(at 231.14 93.98 0)
 			(hide yes)
 			(show_name no)
