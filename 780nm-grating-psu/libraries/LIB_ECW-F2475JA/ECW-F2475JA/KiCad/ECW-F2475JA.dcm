@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ECW-F2475JA
+D Film Capacitors 4.7uF 250VDC 5% MPP L/S=20mm
+K
+F https://componentsearchengine.com/Datasheets/1/ECW-F2475JA.pdf
+$ENDCMP
+#
+#End Doc Library

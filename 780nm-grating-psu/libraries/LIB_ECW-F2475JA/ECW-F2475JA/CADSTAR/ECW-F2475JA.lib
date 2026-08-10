@@ -1,0 +1,16 @@
+.ECW-F2475JA :1 ;Film Capacitors 4.7uF 250VDC 5% MPP L/S=20mm
+ECWF2475JA
+*STM C
+*NGS
+*PLB 1="1" 2="2"
+*MXP 2
+*DFN ECW-F2475JA
+~!Mouser Part Number (667-ECW-F2475JA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Panasonic/ECW-F2475JA?qs=GoZnPdyRfjbTFkwsw7ZE%252Bg%3D%3D)
+~!Manufacturer_Name (Panasonic)
+~!Manufacturer_Part_Number (ECW-F2475JA)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/ECW-F2475JA.pdf)
+~!Height (22.1mm)
+~!3D_Model (ECW-F2475JA)
+ECW-F2475JA
+1.1!U 2.1!U 

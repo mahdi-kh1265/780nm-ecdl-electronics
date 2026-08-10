@@ -1,0 +1,9 @@
+Manufacturer=Panasonic
+PartNumber=ECW-F2475JA
+PartCategory=Capacitor
+PackageCategory=Other
+PinCount=2
+Version=2.13
+Released=2020-04-14 12:08:33
+Downloaded=2026-08-10 03:37:17
+3D=Y

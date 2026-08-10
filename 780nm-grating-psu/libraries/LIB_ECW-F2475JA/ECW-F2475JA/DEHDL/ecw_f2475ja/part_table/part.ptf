@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ECW_F2475JA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Panasonic", "ECW-F2475JA" (!) = "", "ECWF2475JA", "Other", "667-ECW-F2475JA", "https://www.mouser.co.uk/ProductDetail/Panasonic/ECW-F2475JA?qs=GoZnPdyRfjbTFkwsw7ZE%252Bg%3D%3D", "Film Capacitors 4.7uF 250VDC 5% MPP L/S=20mm", "https://componentsearchengine.com/Datasheets/1/ECW-F2475JA.pdf", "22.1 mm"
+END_PART
+
+END.
