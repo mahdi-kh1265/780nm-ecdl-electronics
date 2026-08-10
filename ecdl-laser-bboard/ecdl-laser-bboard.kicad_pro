@@ -526,7 +526,7 @@
       "netlist": "",
       "plot": "laser-bbard-gerbers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ecdl-laser-bboard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

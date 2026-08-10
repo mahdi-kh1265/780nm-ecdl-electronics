@@ -539,7 +539,7 @@
       "netlist": "",
       "plot": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "780nm-grating-psu.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""

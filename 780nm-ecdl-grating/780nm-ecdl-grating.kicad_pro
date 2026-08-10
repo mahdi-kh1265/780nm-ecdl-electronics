@@ -526,7 +526,7 @@
       "netlist": "",
       "plot": "ecdl-grating-gerbers/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "780nm-ecdl-grating.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
