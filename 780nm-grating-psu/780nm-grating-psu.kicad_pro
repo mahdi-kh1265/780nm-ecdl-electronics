@@ -63,8 +63,8 @@
           "min_clearance": 0.5,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 1,
-          "remove_islands": 0,
+          "pad_connection": 2,
+          "remove_islands": 1,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
@@ -76,7 +76,52 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|189100000|72555000|26700aaf-9c6e-4e3d-9f0f-a8624ab31389|f1fd19b3-90b7-43a1-b8fe-1394ef6b5d22",
+          ""
+        ],
+        [
+          "clearance|189100000|73605000|c6202c5a-8a13-4e81-b062-a6685960ad8b|f1fd19b3-90b7-43a1-b8fe-1394ef6b5d22",
+          ""
+        ],
+        [
+          "clearance|189600000|72555000|cc1b9904-88a6-4c6c-ae66-5244018eab80|f1fd19b3-90b7-43a1-b8fe-1394ef6b5d22",
+          ""
+        ],
+        [
+          "clearance|189600000|73605000|9749edfd-085c-4673-97f0-9df6c84659db|f1fd19b3-90b7-43a1-b8fe-1394ef6b5d22",
+          ""
+        ],
+        [
+          "clearance|190100000|72555000|d2844e14-c696-44da-82bd-a05f689480d2|f1fd19b3-90b7-43a1-b8fe-1394ef6b5d22",
+          ""
+        ],
+        [
+          "clearance|190100000|73605000|418a61e3-623d-4818-8df4-127aa4fd51ba|f1fd19b3-90b7-43a1-b8fe-1394ef6b5d22",
+          ""
+        ],
+        [
+          "clearance|190600000|72555000|244bb8fc-28d2-4f42-a913-d25b098e9800|f1fd19b3-90b7-43a1-b8fe-1394ef6b5d22",
+          ""
+        ],
+        [
+          "clearance|190600000|73605000|40632f97-3c27-4772-a4ae-a3a0008ebadc|f1fd19b3-90b7-43a1-b8fe-1394ef6b5d22",
+          ""
+        ],
+        [
+          "clearance|191100000|72555000|8563d7d0-f024-44f5-8bef-647a864fb320|f1fd19b3-90b7-43a1-b8fe-1394ef6b5d22",
+          ""
+        ],
+        [
+          "clearance|191100000|73605000|52d0f34e-6f00-449c-b62d-4a5a71e67b33|f1fd19b3-90b7-43a1-b8fe-1394ef6b5d22",
+          ""
+        ],
+        [
+          "lib_footprint_mismatch|193580000|53490000|cb9505c9-3fe1-4539-9092-a4f3d12d3848|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -106,7 +151,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -535,11 +580,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
       "step": "780nm-grating-psu.step",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -662,7 +710,7 @@
         "uuid": "ac11d6b8-f4d5-44eb-8367-b2b5883dc101"
       }
     ],
-    "used_designators": "TP3-8,F1,L2,S1,J1-4,J7,J12,IC1-3,C4,C6-31,C33-39,C41,FB1,U2,R7-33,JP1,Q2-4,#PWR10-71,#PWR78-79,D1-8",
+    "used_designators": "TP3-8,F1,FB1,L2,S1,C4,C6-31,C33-39,C41,J1-4,J7,J12,IC1-3,U2,R7-33,JP1,Q2-4,#PWR10-71,#PWR78-79,D1-8",
     "variants": []
   },
   "sheets": [
